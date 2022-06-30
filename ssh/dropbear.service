@@ -1,0 +1,11 @@
+[Unit]
+Description=Dropbear SSH server
+After=network.target
+
+[Service]
+Type=forking
+ExecStart=/usr/bin/dropbear -R
+PIDFile=/var/run/dropbear.pid
+
+[Install]
+WantedBy=multi-user.target
