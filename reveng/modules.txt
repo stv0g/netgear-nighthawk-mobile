@@ -1,0 +1,14 @@
+/ # lsmod
+lsmod
+Module                  Size  Used by
+wlan                 7802880  0
+aqc_ipa_offload        81920  0
+qcrypto                65536  0
+embms_kernel           16384  2
+qcedevice              40960  0
+qce50                  69632  2 qcrypto,qcedevice
+br_netfilter           24576  0
+xt_physdev             16384  8
+r8125                 163840  0
+emac_dwc_eqos         274432  0
+

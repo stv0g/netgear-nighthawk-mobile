@@ -1,0 +1,327 @@
+/ # ps aux
+PID   USER     TIME  COMMAND
+    1 root      0:03 {systemd} /sbin/init
+    2 root      0:00 [kthreadd]
+    3 root      0:00 [rcu_gp]
+    4 root      0:00 [kworker/0:0]
+    5 root      0:00 [kworker/0:0H]
+    6 root      0:00 [kworker/u2:0]
+    7 root      0:00 [mm_percpu_wq]
+    8 root      0:00 [ksoftirqd/0]
+    9 root      0:00 [rcu_preempt]
+   10 root      0:00 [rcu_sched]
+   11 root      0:00 [rcu_bh]
+   12 root      0:00 [kdevtmpfs]
+   13 root      0:00 [netns]
+   14 root      0:00 [kworker/0:1]
+   15 root      0:00 [kworker/u2:1]
+   16 root      0:00 [msm_watchdog]
+   17 root      0:00 [kworker/u3:0]
+   18 root      0:00 [ipa_usb_wq]
+   19 root      0:00 [qmp_aop]
+   20 root      0:00 [oom_reaper]
+   21 root      0:00 [writeback]
+   22 root      0:00 [kcompactd0]
+   23 root      0:00 [crypto]
+   24 root      0:00 [kblockd]
+   25 root      0:00 [irq/43-arm-smmu]
+   26 root      0:00 [irq/36-tsens-up]
+   27 root      0:00 [irq/37-tsens-cr]
+   28 root      0:00 [system]
+   29 root      0:00 [ipa_power_mgmt]
+   30 root      0:00 [transport_power]
+   31 root      0:00 [ipa_pm_activate]
+   32 root      0:00 [ipa_eth]
+   33 root      0:00 [ipa_eth_wq]
+   34 root      0:00 [devfreq_wq]
+   35 root      0:00 [cfg80211]
+   36 root      0:00 [kauditd]
+   37 root      0:00 [kswapd0]
+   76 root      0:00 [irq/33-smp2p]
+   77 root      0:00 [k_hsuart]
+   78 root      0:00 [msm_serial_hs_0]
+   79 root      0:00 [msm_serial_hs_0]
+   80 root      0:00 [hwrng]
+   82 root      0:00 [diag_real_time_]
+   83 root      0:00 [diag_wq]
+   85 root      0:00 [DIAG_USB_diag]
+   86 root      0:00 [diag_cntl_wq]
+   87 root      0:00 [diag_dci_wq]
+   88 root      0:00 [MODEM_CNTL]
+   89 root      0:00 [MODEM_DATA]
+   90 root      0:00 [MODEM_CMD]
+   91 root      0:00 [MODEM_DCI]
+   92 root      0:00 [MODEM_DCI_CMD]
+   93 root      0:00 [LPASS_CNTL]
+   94 root      0:00 [LPASS_DATA]
+   95 root      0:00 [LPASS_CMD]
+   96 root      0:00 [LPASS_DCI]
+   97 root      0:00 [LPASS_DCI_CMD]
+   98 root      0:00 [WCNSS_CNTL]
+   99 root      0:00 [WCNSS_DATA]
+  100 root      0:00 [WCNSS_CMD]
+  101 root      0:00 [WCNSS_DCI]
+  102 root      0:00 [WCNSS_DCI_CMD]
+  103 root      0:00 [SENSORS_CNTL]
+  104 root      0:00 [SENSORS_DATA]
+  105 root      0:00 [SENSORS_CMD]
+  106 root      0:00 [SENSORS_DCI]
+  107 root      0:00 [SENSORS_DCI_CMD]
+  108 root      0:00 [DIAG_CTRL]
+  109 root      0:00 [DIAG_DATA]
+  110 root      0:00 [DIAG_CMD]
+  111 root      0:00 [DIAG_DCI_DATA]
+  112 root      0:00 [DIAG_DCI_CMD]
+  113 root      0:00 [CDSP_CNTL]
+  114 root      0:00 [CDSP_DATA]
+  115 root      0:00 [CDSP_CMD]
+  116 root      0:00 [CDSP_DCI]
+  117 root      0:00 [CDSP_DCI_CMD]
+  118 root      0:00 [NPU_CNTL]
+  119 root      0:00 [NPU_DATA]
+  120 root      0:00 [NPU_CMD]
+  121 root      0:00 [NPU_DCI]
+  122 root      0:00 [NPU_DCI_CMD]
+  123 root      0:00 [DIAG_RPMSG_DIAG]
+  124 root      0:00 [DIAG_RPMSG_DIAG]
+  125 root      0:00 [DIAG_RPMSG_DIAG]
+  126 root      0:00 [DIAG_RPMSG_DIAG]
+  127 root      0:00 [DIAG_RPMSG_DIAG]
+  128 root      0:00 [kworker/u2:2]
+  129 root      0:00 [diag_mhi_MDM]
+  130 root      0:00 [DIAG_USB_diag_m]
+  131 root      0:00 [kworker/u2:3]
+  132 root      0:00 [kworker/u2:4]
+  133 root      0:00 [diag_mhi_MDM_DC]
+  134 root      0:00 [kworker/u2:5]
+  135 root      0:00 [diag_dci_MDM_DC]
+  136 root      0:00 [kworker/u2:6]
+  137 root      0:00 [kworker/u2:7]
+  138 root      0:00 [qseecom-unreg-l]
+  139 root      0:00 [atlantic-fwd]
+  140 root      0:00 [irq/44-arm-smmu]
+  141 root      0:00 [mhi_w]
+  147 root      0:00 [k_ipa_usb]
+  150 root      0:00 [fts_wq]
+  151 root      0:00 [irq/194-fts_ts]
+  152 root      0:01 [kworker/u2:8]
+  153 root      0:00 [irq/196-soc-upd]
+  154 root      0:00 [irq/197-soc-rea]
+  155 root      0:00 [irq/198-bsoc-de]
+  156 root      0:00 [irq/199-msoc-de]
+  157 root      0:00 [irq/200-msoc-lo]
+  158 root      0:00 [irq/201-msoc-em]
+  159 root      0:00 [irq/202-msoc-hi]
+  160 root      0:00 [irq/203-msoc-fu]
+  161 root      0:00 [irq/204-vbatt-l]
+  162 root      0:00 [irq/205-vbatt-p]
+  163 root      0:00 [irq/206-esr-del]
+  164 root      0:00 [irq/207-batt-mi]
+  165 root      0:00 [irq/208-batt-id]
+  166 root      0:00 [irq/209-batt-te]
+  167 root      0:00 [irq/210-batt-te]
+  168 root      0:00 [irq/211-batt-te]
+  169 root      0:00 [irq/212-ima-rdy]
+  170 root      0:00 [irq/213-ima-xcp]
+  171 root      0:00 [irq/214-dma-xcp]
+  172 root      0:00 [irq/215-dma-gra]
+  173 root      0:00 [irq/216-mem-att]
+  174 root      0:00 [kworker/0:2]
+  175 root      0:00 [irq/150-bcl-lvl]
+  176 root      0:00 [irq/151-bcl-lvl]
+  177 root      0:00 [irq/152-bcl-lvl]
+  178 root      0:00 [ipv6_addrconf]
+  187 root      0:00 [irq/220-chgr-er]
+  188 root      0:00 [kworker/0:3]
+  189 root      0:00 [irq/221-chg-sta]
+  190 root      0:00 [irq/227-otg-fai]
+  191 root      0:00 [kworker/0:4]
+  192 root      0:00 [irq/230-high-du]
+  193 root      0:00 [kworker/0:5]
+  194 root      0:02 [kworker/0:6]
+  195 root      0:00 [irq/231-input-c]
+  196 root      0:00 [irq/233-switche]
+  197 root      0:00 [irq/234-bat-tem]
+  198 root      0:00 [irq/235-bat-ov]
+  199 root      0:00 [irq/236-bat-low]
+  200 root      0:00 [irq/237-bat-the]
+  201 root      0:00 [irq/238-bat-ter]
+  202 root      0:00 [irq/241-usbin-c]
+  203 root      0:00 [irq/242-usbin-v]
+  204 root      0:00 [irq/243-usbin-u]
+  205 root      0:00 [irq/244-usbin-o]
+  206 root      0:00 [irq/245-usbin-p]
+  207 root      0:00 [irq/247-usbin-s]
+  208 root      0:00 [irq/248-usbin-i]
+  209 root      0:00 [irq/250-dcin-uv]
+  210 root      0:00 [irq/251-dcin-ov]
+  211 root      0:00 [irq/252-dcin-pl]
+  212 root      0:00 [irq/254-dcin-po]
+  213 root      0:00 [irq/255-dcin-en]
+  214 root      0:00 [irq/256-typec-o]
+  215 root      0:00 [irq/258-typec-c]
+  216 root      0:00 [irq/259-typec-v]
+  217 root      0:00 [irq/261-typec-a]
+  218 root      0:00 [irq/262-typec-l]
+  219 root      0:00 [irq/264-wdog-sn]
+  220 root      0:00 [irq/265-wdog-ba]
+  221 root      0:00 [irq/267-aicl-do]
+  222 root      0:00 [irq/268-smb-en]
+  223 root      0:00 [irq/269-temp-ch]
+  224 root      0:00 [irq/121-qcom,te]
+  225 root      0:00 [kworker/0:7]
+  226 root      0:00 [irq/130-qcom,te]
+  233 root      0:00 [irq/142-sig-tx]
+  234 root      0:00 [irq/143-sig-rx]
+  235 root      0:00 [kworker/u3:1]
+  236 root      0:00 [irq/61-pwr_even]
+  237 root      0:00 [irq/60-dp_hs_ph]
+  238 root      0:00 [irq/62-dm_hs_ph]
+  239 root      0:00 [irq/63-ss_phy_i]
+  240 root      0:00 [irq/45-arm-smmu]
+  241 root      0:00 [usb_bam_wq]
+  242 root      0:00 [ubi_bgt0d]
+  243 root      0:00 [ubifs_bgt0_0]
+  246 root      0:00 [ubifs_bgt0_3]
+  257 root      0:00 {restartNetgearW} /bin/sh /usr/sbin/restartNetgearWebApp
+  259 root      0:00 [kworker/u2:9]
+  265 root      0:03 /usr/bin/NetgearWebApp
+  272 system    0:00 /usr/bin/ssreq_server
+  274 radio     0:00 /usr/bin/netmgrd
+  280 root      0:00 [kworker/u2:10]
+  281 qrtr      0:00 /usr/bin/qrtr-ns
+  298 root      0:00 [ubi_bgt1d]
+  312 root      0:00 [ubi_bgt2d]
+  327 root      0:00 [ubifs_bgt2_0]
+  346 root      0:00 [ubi_bgt3d]
+  365 root      0:00 [ubi_bgt4d]
+  371 root      0:00 [irq/49-arm-smmu]
+  372 root      0:00 [irq/50-arm-smmu]
+  373 root      0:00 [irq/51-arm-smmu]
+  374 root      0:00 [ubifs_bgt1_0]
+  378 root      0:01 /lib/systemd/systemd-udevd
+  379 root      0:00 [kworker/u3:2]
+  380 root      0:00 [ubifs_bgt0_4]
+  381 root      0:00 [ipa_interrupt_w]
+  382 root      0:00 [ipawq36]
+  383 root      0:00 [iparepwq36]
+  384 root      0:00 [ipawq33]
+  385 root      0:00 [iparepwq33]
+  386 root      0:00 [ipawq32]
+  387 root      0:00 [iparepwq32]
+  388 root      0:00 [ipa_ut_dbgfs]
+  389 root      0:00 [clnt_req]
+  391 root      0:00 [ubifs_bgt0_1]
+  402 root      0:00 {restart_swiapp} /bin/sh /usr/sbin/restart_swiapp
+  405 root      0:05 /usr/bin/swiapp
+  421 system    0:00 /sbin/tftp_server
+  424 system    0:00 /usr/bin/time_daemon
+  497 root      0:00 [at_usb0]
+  499 root      0:00 [at_usb1]
+  507 root      0:00 [rmnet_ctrl]
+  514 root      0:00 [android_mbim]
+  518 root      0:00 [dpl_ctrl]
+  522 root      0:00 [gps]
+  528 root      0:00 [qdss]
+  531 root      0:00 [qdss_mdm]
+  539 messageb  0:00 /usr/bin/dbus-daemon --system --address=systemd: --nofork
+  638 root      0:00 /usr/sbin/telnetd -l /bin/sh
+  653 radio     0:02 /usr/bin/ipacm
+  654 radio     0:04 /usr/bin/QCMAP_ConnectionManager /etc/data/mobileap_cfg.xm
+  659 root      0:00 /sbin/adbd
+  732 system    0:00 /sbin/init_mss
+  738 root      0:00 [irq/46-arm-smmu]
+  744 root      0:00 [kworker/u3:3]
+  751 root      0:00 [kworker/u3:4]
+  753 root      0:03 [kworker/u3:5]
+  756 root      0:00 [kworker/u3:6]
+  757 root      0:00 [kworker/u3:7]
+  758 root      0:00 [kworker/u3:8]
+  759 root      0:00 [kworker/u3:9]
+  857 root      0:00 [glink_modem]
+  862 root      0:00 [qrtr_rx]
+  869 root      0:00 [kworker/0:1H]
+  874 root      0:00 [kworker/0:2H]
+  880 root      0:00 [kworker/u2:11]
+ 1013 root      0:00 xinit /etc/X11/Xsession -- /usr/bin/Xorg :0 -br -pn -nocur
+ 1039 root      0:01 /usr/bin/Xorg :0 -br -pn -nocursor -r -ardelay 30000 -arin
+ 1182 root      0:00 [ipawq34]
+ 1184 root      0:00 [iparepwq34]
+ 1186 root      0:00 [ipawq35]
+ 1187 root      0:00 [iparepwq35]
+ 1277 root      0:00 {gui.sh} /bin/sh /etc/init.d/gui.sh
+ 1281 root      0:00 dbus-launch --sh-syntax --exit-with-session
+ 1282 root      0:00 /usr/bin/dbus-daemon --syslog --fork --print-pid 5 --print
+ 1299 root      0:00 {restartGui} /bin/sh /usr/sbin/restartGui
+ 1303 root      0:03 /usr/bin/Gui /mnt/hdata/lcd/images/guibg3.png file:///mnt/
+ 1318 system    0:01 /usr/bin/chg-policy
+ 1320 root      0:00 /sbin/agetty -o -p -- \u --noclear tty1 linux
+ 1366 root      0:25 /usr/libexec/webkit2gtk-4.0/WebKitWebProcess 1 13
+ 1371 root      0:01 /usr/libexec/webkit2gtk-4.0/WebKitNetworkProcess 2 13
+ 1389 radio     0:00 /usr/bin/qmuxbridge
+ 1398 root      0:00 [ubifs_bgt0_2]
+ 1424 root      0:00 /sbin/syslogd
+ 1431 radio     0:00 /usr/bin/atfwd_daemon
+ 1434 root      0:00 /usr/bin/qmi_ip_multiclient /etc/data/qmi_ip_cfg.xml
+ 1462 root      0:00 {runatotcp.sh} /bin/sh /usr/bin/runatotcp.sh
+ 1531 root      0:00 [kworker/u2:12]
+ 1554 radio     0:00 /usr/bin/ipacm_perf
+ 1564 root      0:00 /lib/systemd/systemd-logind
+ 1566 root      0:00 /sbin/fs-scrub-daemon
+ 1568 radio     0:00 /usr/bin/mbimd
+ 1569 system    0:00 /usr/bin/qseecomd
+ 1571 root      0:00 /sbin/reboot-daemon
+ 1575 root      0:00 [qcrypto_seq_res]
+ 1577 root      0:00 nc -l 172.23.156.129:5510
+ 1593 system    0:00 /usr/bin/qseecomd
+ 1624 radio     0:00 /usr/bin/port_bridge at_mdm0 at_usb0
+ 1628 wifi      0:00 wlan_services
+ 1650 radio     0:00 /usr/bin/adpl
+ 1681 root      0:00 /sbin/reboot-daemon
+ 1743 diag      0:00 /usr/bin/diagrebootapp
+ 1751 radio     0:00 /usr/bin/qti
+ 1775 system    0:00 /usr/bin/thermal-engine
+ 1943 root      0:00 /opt/netgear/usr/bin/xagent -w --disable_console --ca_file
+ 1947 root      0:00 [sed]
+ 1948 root      0:00 /opt/netgear/usr/bin/insight-configd -l 2 -r -q
+ 1950 root      0:00 [sh]
+ 1951 root      0:00 [sed]
+ 1958 root      0:00 /opt/netgear/usr/bin/insight-brokerd -l 2 -r -q
+ 1959 root      0:00 [sh]
+ 1960 root      0:00 [sed]
+ 1961 root      0:00 [sh]
+ 1962 root      0:00 [sed]
+ 1967 root      0:00 [sh]
+ 1968 root      0:00 /opt/netgear/usr/bin/xagent -w --disable_console --ca_file
+ 1975 root      0:00 [sh]
+ 1979 root      0:00 [sh]
+ 1983 root      0:00 [sh]
+ 1987 root      0:00 [sh]
+ 1991 root      0:00 [sh]
+ 1995 root      0:00 [sh]
+ 1999 root      0:00 [sh]
+ 2003 root      0:00 [sh]
+ 2007 root      0:00 [sh]
+ 2011 root      0:00 [sh]
+ 2015 root      0:00 [sh]
+ 2019 root      0:00 [sh]
+ 2023 root      0:00 [sh]
+ 2162 root      0:00 /sbin/agetty -8 -L ttyMSM0 115200 xterm
+ 2240 radio     0:00 /usr/bin/ipacmdiag
+ 2301 root      0:00 [kworker/u2:13]
+ 2318 radio     0:00 radish -k -b rmnet_data0 -i rmnet_data0 -x -i bridge0 -x -
+ 2411 nobody    0:00 /usr/bin/dnsmasq --conf-file=/mnt/userrw/etc/dnsmasq.conf
+ 2412 root      0:00 /usr/bin/dnsmasq --conf-file=/mnt/userrw/etc/dnsmasq.conf
+ 2670 root      0:00 [cds_recovery_wo]
+ 2671 root      0:00 [wlan_logging_th]
+ 2674 root      0:00 [irq/160-mhi]
+ 2676 root      0:00 [qrtr_rx]
+ 2682 root      0:00 [scheduler_threa]
+ 2712 root      0:00 /usr/sbin/hostapd -B /mnt/userrw/etc/hostapd.conf -P /var/
+ 2731 root      0:00 /usr/sbin/hostapd_cli -i wlan0 -s /var/run -p /var/run/hos
+ 2762 root      0:00 /usr/sbin/hostapd -B /mnt/userrw/etc/hostapd-wlan1.conf -P
+ 2821 root      0:00 /usr/sbin/hostapd_cli -i wlan1 -s /var/run -p /var/run/hos
+ 2858 root      0:00 /usr/sbin/miniupnpd -f /etc/data/miniupnpd/miniupnpd.conf
+ 3365 root      0:00 /bin/sh
+ 4919 root      0:00 ps aux
+
