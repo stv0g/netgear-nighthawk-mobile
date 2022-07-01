@@ -1,0 +1,150 @@
+root@sdxprairie:/# ubinfo -a
+UBI version:                    1
+Count of UBI devices:           5
+UBI control device major/minor: 10:55
+Present UBI devices:            ubi0, ubi1, ubi2, ubi3, ubi4
+
+ubi0
+Volumes count:                           5
+Logical eraseblock size:                 253952 bytes, 248.0 KiB
+Total amount of logical eraseblocks:     1202 (305250304 bytes, 291.1 MiB)
+Amount of available logical eraseblocks: 0 (0 bytes)
+Maximum count of volumes                 128
+Count of bad physical eraseblocks:       0
+Count of reserved physical eraseblocks:  80
+Current maximum erase counter value:     10
+Minimum input/output unit size:          4096 bytes
+Character device major/minor:            508:0
+Present volumes:                         0, 1, 2, 3, 4
+
+Volume ID:   0 (on ubi0)
+Type:        dynamic
+Alignment:   1
+Size:        455 LEBs (115548160 bytes, 110.1 MiB)
+State:       OK
+Name:        rootfs
+Character device major/minor: 508:1
+-----------------------------------
+Volume ID:   1 (on ubi0)
+Type:        dynamic
+Alignment:   1
+Size:        592 LEBs (150339584 bytes, 143.3 MiB)
+State:       OK
+Name:        usrfs
+Character device major/minor: 508:2
+-----------------------------------
+Volume ID:   2 (on ubi0)
+Type:        dynamic
+Alignment:   1
+Size:        21 LEBs (5332992 bytes, 5.0 MiB)
+State:       OK
+Name:        cachefs
+Character device major/minor: 508:3
+-----------------------------------
+Volume ID:   3 (on ubi0)
+Type:        dynamic
+Alignment:   1
+Size:        25 LEBs (6348800 bytes, 6.0 MiB)
+State:       OK
+Name:        systemrw
+Character device major/minor: 508:4
+-----------------------------------
+Volume ID:   4 (on ubi0)
+Type:        dynamic
+Alignment:   1
+Size:        25 LEBs (6348800 bytes, 6.0 MiB)
+State:       OK
+Name:        persist
+Character device major/minor: 508:5
+
+===================================
+
+ubi1
+Volumes count:                           1
+Logical eraseblock size:                 253952 bytes, 248.0 KiB
+Total amount of logical eraseblocks:     513 (130277376 bytes, 124.2 MiB)
+Amount of available logical eraseblocks: 0 (0 bytes)
+Maximum count of volumes                 128
+Count of bad physical eraseblocks:       0
+Count of reserved physical eraseblocks:  80
+Current maximum erase counter value:     5
+Minimum input/output unit size:          4096 bytes
+Character device major/minor:            507:0
+Present volumes:                         0
+
+Volume ID:   0 (on ubi1)
+Type:        dynamic
+Alignment:   1
+Size:        429 LEBs (108945408 bytes, 103.8 MiB)
+State:       OK
+Name:        modem
+Character device major/minor: 507:1
+
+===================================
+
+ubi2
+Volumes count:                           1
+Logical eraseblock size:                 253952 bytes, 248.0 KiB
+Total amount of logical eraseblocks:     161 (40886272 bytes, 38.9 MiB)
+Amount of available logical eraseblocks: 0 (0 bytes)
+Maximum count of volumes                 128
+Count of bad physical eraseblocks:       0
+Count of reserved physical eraseblocks:  80
+Current maximum erase counter value:     179
+Minimum input/output unit size:          4096 bytes
+Character device major/minor:            506:0
+Present volumes:                         0
+
+Volume ID:   0 (on ubi2)
+Type:        dynamic
+Alignment:   1
+Size:        77 LEBs (19554304 bytes, 18.6 MiB)
+State:       OK
+Name:        userrw
+Character device major/minor: 506:1
+
+===================================
+
+ubi3
+Volumes count:                           1
+Logical eraseblock size:                 253952 bytes, 248.0 KiB
+Total amount of logical eraseblocks:     229 (58155008 bytes, 55.4 MiB)
+Amount of available logical eraseblocks: 41 (10412032 bytes, 9.9 MiB)
+Maximum count of volumes                 128
+Count of bad physical eraseblocks:       0
+Count of reserved physical eraseblocks:  80
+Current maximum erase counter value:     3
+Minimum input/output unit size:          4096 bytes
+Character device major/minor:            505:0
+Present volumes:                         0
+
+Volume ID:   0 (on ubi3)
+Type:        dynamic
+Alignment:   1
+Size:        104 LEBs (26411008 bytes, 25.1 MiB)
+State:       OK
+Name:        hdata
+Character device major/minor: 505:1
+
+===================================
+
+ubi4
+Volumes count:                           1
+Logical eraseblock size:                 253952 bytes, 248.0 KiB
+Total amount of logical eraseblocks:     65 (16506880 bytes, 15.7 MiB)
+Amount of available logical eraseblocks: 0 (0 bytes)
+Maximum count of volumes                 128
+Count of bad physical eraseblocks:       0
+Count of reserved physical eraseblocks:  16
+Current maximum erase counter value:     3
+Minimum input/output unit size:          4096 bytes
+Character device major/minor:            504:0
+Present volumes:                         0
+
+Volume ID:   0 (on ubi4)
+Type:        dynamic
+Alignment:   1
+Size:        45 LEBs (11427840 bytes, 10.8 MiB)
+State:       OK
+Name:        ntgrpersist
+Character device major/minor: 504:1
