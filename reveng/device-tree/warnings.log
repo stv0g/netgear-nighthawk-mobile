@@ -1,0 +1,512 @@
+<stdout>: Warning (reg_format): /soc/qcom,pcie@1c00000/pcie0_rp/pcie0_bus1_dev0_fn0:reg: property has invalid length (20 bytes) (#address-cells == 2, #size-cells == 1)
+<stdout>: Warning (reg_format): /soc/qcom,pcie@1c00000/pcie0_rp/pcie0_bus1_dev0_fn0/pcie0_bus2_dev1_fn0:reg: property has invalid length (20 bytes) (#address-cells == 2, #size-cells == 1)
+<stdout>: Warning (reg_format): /soc/qcom,pcie@1c00000/pcie0_rp/pcie0_bus1_dev0_fn0/pcie0_bus2_dev2_fn0:reg: property has invalid length (20 bytes) (#address-cells == 2, #size-cells == 1)
+<stdout>: Warning (reg_format): /soc/qcom,pcie@1c00000/pcie0_rp/pcie0_bus1_dev0_fn0/pcie0_bus2_dev2_fn0/aquantia,aqc107@pcie0_bus2_dev1_fn0:reg: property has invalid length (20 bytes) (#address-cells == 2, #size-cells == 1)
+<stdout>: Warning (reg_format): /soc/qcom,pcie@1c00000/pcie0_rp/realtek,rtl8125@pcie0_rp:reg: property has invalid length (20 bytes) (#address-cells == 2, #size-cells == 1)
+<stdout>: Warning (reg_format): /soc/qcom,pcie@1c00000/pcie0_rp/aquantia,aqc107@pcie0_rp:reg: property has invalid length (20 bytes) (#address-cells == 2, #size-cells == 1)
+<stdout>: Warning (reg_format): /soc/qcom,cnss-qca6390@a0000000/mhi_channels/mhi_chan@4:reg: property has invalid length (4 bytes) (#address-cells == 2, #size-cells == 1)
+<stdout>: Warning (reg_format): /soc/qcom,cnss-qca6390@a0000000/mhi_channels/mhi_chan@5:reg: property has invalid length (4 bytes) (#address-cells == 2, #size-cells == 1)
+<stdout>: Warning (reg_format): /soc/qcom,cnss-qca6390@a0000000/mhi_channels/mhi_chan@21:reg: property has invalid length (4 bytes) (#address-cells == 2, #size-cells == 1)
+<stdout>: Warning (reg_format): /soc/qcom,cnss-qca6390@a0000000/mhi_channels/mhi_chan@20:reg: property has invalid length (4 bytes) (#address-cells == 2, #size-cells == 1)
+<stdout>: Warning (reg_format): /soc/qcom,cnss-qca6390@a0000000/mhi_channels/mhi_chan@0:reg: property has invalid length (4 bytes) (#address-cells == 2, #size-cells == 1)
+<stdout>: Warning (reg_format): /soc/qcom,cnss-qca6390@a0000000/mhi_channels/mhi_chan@1:reg: property has invalid length (4 bytes) (#address-cells == 2, #size-cells == 1)
+<stdout>: Warning (unit_address_vs_reg): /memory: node has a reg or ranges property, but no unit name
+<stdout>: Warning (unit_address_vs_reg): /reserved-memory/qseecom_region@0: node has a unit name, but no reg or ranges property
+<stdout>: Warning (unit_address_vs_reg): /reserved-memory/qseecom_ta_region@0: node has a unit name, but no reg or ranges property
+<stdout>: Warning (unit_address_vs_reg): /soc/msm_cdc_pinctrl@92: node has a unit name, but no reg or ranges property
+<stdout>: Warning (unit_address_vs_reg): /soc/qcom,lpm-levels/qcom,pm-cluster@0/qcom,pm-cpu@0: node has a unit name, but no reg or ranges property
+<stdout>: Warning (unit_address_vs_reg): /soc/ad-hoc-bus: node has a reg or ranges property, but no unit name
+<stdout>: Warning (unit_address_vs_reg): /soc/qcom,pcie@1c00000/pcie0_rp: node has a reg or ranges property, but no unit name
+<stdout>: Warning (unit_address_vs_reg): /soc/qcom,pcie@1c00000/pcie0_rp/pcie0_bus1_dev0_fn0: node has a reg or ranges property, but no unit name
+<stdout>: Warning (unit_address_vs_reg): /soc/qcom,pcie@1c00000/pcie0_rp/pcie0_bus1_dev0_fn0/pcie0_bus2_dev1_fn0: node has a reg or ranges property, but no unit name
+<stdout>: Warning (unit_address_vs_reg): /soc/qcom,pcie@1c00000/pcie0_rp/pcie0_bus1_dev0_fn0/pcie0_bus2_dev2_fn0: node has a reg or ranges property, but no unit name
+<stdout>: Warning (unit_address_vs_reg): /soc/qcom,cnss-qca6390@a0000000/mhi_events/mhi_event@1: node has a unit name, but no reg or ranges property
+<stdout>: Warning (unit_address_vs_reg): /soc/qcom,cnss-qca6390@a0000000/mhi_events/mhi_event@0: node has a unit name, but no reg or ranges property
+<stdout>: Warning (unit_address_vs_reg): /soc/aqo_uc_proxy@1ec2080: node has a unit name, but no reg or ranges property
+<stdout>: Warning (unit_address_vs_reg): /soc/i2c@837000/tavil_codec: node has a reg or ranges property, but no unit name
+<stdout>: Warning (unit_address_vs_reg): /soc/i2c@837000/tavil_codec/wcd_pinctrl@5: node has a unit name, but no reg or ranges property
+<stdout>: Warning (unit_address_vs_reg): /soc/qcom,spmi@c440000/qcom,pm8150b@2/vadc@3100/vph_pwr: node has a reg or ranges property, but no unit name
+<stdout>: Warning (unit_address_vs_reg): /soc/qcom,spmi@c440000/qcom,pm8150b@2/vadc@3100/die_temp: node has a reg or ranges property, but no unit name
+<stdout>: Warning (unit_address_vs_reg): /soc/qcom,spmi@c440000/qcom,pm8150b@2/vadc@3100/mid_chg_div6: node has a reg or ranges property, but no unit name
+<stdout>: Warning (unit_address_vs_reg): /soc/qcom,spmi@c440000/qcom,pm8150b@2/vadc@3100/ref_gnd: node has a reg or ranges property, but no unit name
+<stdout>: Warning (unit_address_vs_reg): /soc/qcom,spmi@c440000/qcom,pm8150b@2/vadc@3100/chg_temp: node has a reg or ranges property, but no unit name
+<stdout>: Warning (unit_address_vs_reg): /soc/qcom,spmi@c440000/qcom,pm8150b@2/vadc@3100/usb_in_v_div_16: node has a reg or ranges property, but no unit name
+<stdout>: Warning (unit_address_vs_reg): /soc/qcom,spmi@c440000/qcom,pm8150b@2/vadc@3100/conn_therm: node has a reg or ranges property, but no unit name
+<stdout>: Warning (unit_address_vs_reg): /soc/qcom,spmi@c440000/qcom,pm8150b@2/vadc@3100/smb1390_therm: node has a reg or ranges property, but no unit name
+<stdout>: Warning (unit_address_vs_reg): /soc/qcom,spmi@c440000/qcom,pm8150b@2/vadc@3100/v_i_parallel: node has a reg or ranges property, but no unit name
+<stdout>: Warning (unit_address_vs_reg): /soc/qcom,spmi@c440000/qcom,pm8150b@2/vadc@3100/usb_in_i_uv: node has a reg or ranges property, but no unit name
+<stdout>: Warning (unit_address_vs_reg): /soc/qcom,spmi@c440000/qcom,pm8150b@2/vadc@3100/v_i_int_ext: node has a reg or ranges property, but no unit name
+<stdout>: Warning (unit_address_vs_reg): /soc/qcom,spmi@c440000/qcom,pm8150b@2/vadc@3100/smb1355_therm: node has a reg or ranges property, but no unit name
+<stdout>: Warning (unit_address_vs_reg): /soc/qcom,spmi@c440000/qcom,pm8150b@2/vadc@3100/v_i_ext: node has a reg or ranges property, but no unit name
+<stdout>: Warning (unit_address_vs_reg): /soc/qcom,spmi@c440000/qcom,pm8150b@2/vadc@3100/vref_1p25: node has a reg or ranges property, but no unit name
+<stdout>: Warning (unit_address_vs_reg): /soc/qcom,spmi@c440000/qcom,pm8150b@2/vadc@3100/chg_sbux: node has a reg or ranges property, but no unit name
+<stdout>: Warning (unit_address_vs_reg): /soc/qcom,spmi@c440000/qcom,pmxprairie@8/adc_tm@3500/ambient_therm: node has a reg or ranges property, but no unit name
+<stdout>: Warning (unit_address_vs_reg): /soc/qcom,spmi@c440000/qcom,pmxprairie@8/adc_tm@3500/pa_therm1: node has a reg or ranges property, but no unit name
+<stdout>: Warning (unit_address_vs_reg): /soc/qcom,spmi@c440000/qcom,pmxprairie@8/adc_tm@3500/sdx_case_therm: node has a reg or ranges property, but no unit name
+<stdout>: Warning (unit_address_vs_reg): /soc/qcom,spmi@c440000/qcom,pmxprairie@8/adc_tm@3500/xo_therm: node has a reg or ranges property, but no unit name
+<stdout>: Warning (unit_address_vs_reg): /soc/qcom,spmi@c440000/qcom,pmxprairie@8/adc_tm@3500/pa_therm2: node has a reg or ranges property, but no unit name
+<stdout>: Warning (unit_address_vs_reg): /soc/qcom,spmi@c440000/qcom,pmxprairie@8/qcom,rtc@6000: node has a unit name, but no reg or ranges property
+<stdout>: Warning (unit_address_vs_reg): /soc/qcom,spmi@c440000/qcom,pmxprairie@8/vadc@3100/vph_pwr: node has a reg or ranges property, but no unit name
+<stdout>: Warning (unit_address_vs_reg): /soc/qcom,spmi@c440000/qcom,pmxprairie@8/vadc@3100/ambient_therm: node has a reg or ranges property, but no unit name
+<stdout>: Warning (unit_address_vs_reg): /soc/qcom,spmi@c440000/qcom,pmxprairie@8/vadc@3100/die_temp: node has a reg or ranges property, but no unit name
+<stdout>: Warning (unit_address_vs_reg): /soc/qcom,spmi@c440000/qcom,pmxprairie@8/vadc@3100/pa_therm1: node has a reg or ranges property, but no unit name
+<stdout>: Warning (unit_address_vs_reg): /soc/qcom,spmi@c440000/qcom,pmxprairie@8/vadc@3100/ref_gnd: node has a reg or ranges property, but no unit name
+<stdout>: Warning (unit_address_vs_reg): /soc/qcom,spmi@c440000/qcom,pmxprairie@8/vadc@3100/sdx_case_therm: node has a reg or ranges property, but no unit name
+<stdout>: Warning (unit_address_vs_reg): /soc/qcom,spmi@c440000/qcom,pmxprairie@8/vadc@3100/xo_therm: node has a reg or ranges property, but no unit name
+<stdout>: Warning (unit_address_vs_reg): /soc/qcom,spmi@c440000/qcom,pmxprairie@8/vadc@3100/pa_therm2: node has a reg or ranges property, but no unit name
+<stdout>: Warning (unit_address_vs_reg): /soc/qcom,spmi@c440000/qcom,pmxprairie@8/vadc@3100/vref_1p25: node has a reg or ranges property, but no unit name
+<stdout>: Warning (unit_address_vs_reg): /soc/qcom,smp2p-modem@1799000c: node has a unit name, but no reg or ranges property
+<stdout>: Warning (unit_address_vs_reg): /soc/ess-instance/ess-switch@0: node has a unit name, but no reg or ranges property
+<stdout>: Warning (unit_address_format): /reserved-memory/netgear_region@0x9D000000: unit name should not have leading "0x"
+<stdout>: Warning (unit_address_format): /reserved-memory/tz_apps_region@0x90000000: unit name should not have leading "0x"
+<stdout>: Warning (unit_address_format): /soc/apps-smmu@0x15000000: unit name should not have leading "0x"
+<stdout>: Warning (unit_address_format): /soc/apps-smmu@0x15000000/periph_tbu@0x15025000: unit name should not have leading "0x"
+<stdout>: Warning (unit_address_format): /soc/apps-smmu@0x15000000/ipa_tbu@0x15029000: unit name should not have leading "0x"
+<stdout>: Warning (unit_address_format): /soc/qcom,ethernet@00020000: unit name should not have leading 0s
+<stdout>: Warning (unit_address_format): /soc/mailbox@0x17811000: unit name should not have leading "0x"
+<stdout>: Warning (unit_address_format): /soc/tz-log@0x1468f720: unit name should not have leading "0x"
+<stdout>: Warning (unit_address_format): /soc/qcom,emac@00020000: unit name should not have leading 0s
+<stdout>: Warning (unit_address_format): /soc/qcom,ipa@01e00000: unit name should not have leading 0s
+<stdout>: Warning (pci_device_reg): Failed prerequisite 'reg_format'
+<stdout>: Warning (pci_device_bus_num): Failed prerequisite 'reg_format'
+<stdout>: Warning (simple_bus_reg): Failed prerequisite 'reg_format'
+<stdout>: Warning (i2c_bus_reg): Failed prerequisite 'reg_format'
+<stdout>: Warning (spi_bus_reg): Failed prerequisite 'reg_format'
+<stdout>: Warning (avoid_default_addr_size): /soc/qcom,pcie@1c00000/pcie0_rp/pcie0_bus1_dev0_fn0: Relying on default #address-cells value
+<stdout>: Warning (avoid_default_addr_size): /soc/qcom,pcie@1c00000/pcie0_rp/pcie0_bus1_dev0_fn0: Relying on default #size-cells value
+<stdout>: Warning (avoid_default_addr_size): /soc/qcom,pcie@1c00000/pcie0_rp/pcie0_bus1_dev0_fn0/pcie0_bus2_dev1_fn0: Relying on default #address-cells value
+<stdout>: Warning (avoid_default_addr_size): /soc/qcom,pcie@1c00000/pcie0_rp/pcie0_bus1_dev0_fn0/pcie0_bus2_dev1_fn0: Relying on default #size-cells value
+<stdout>: Warning (avoid_default_addr_size): /soc/qcom,pcie@1c00000/pcie0_rp/pcie0_bus1_dev0_fn0/pcie0_bus2_dev2_fn0: Relying on default #address-cells value
+<stdout>: Warning (avoid_default_addr_size): /soc/qcom,pcie@1c00000/pcie0_rp/pcie0_bus1_dev0_fn0/pcie0_bus2_dev2_fn0: Relying on default #size-cells value
+<stdout>: Warning (avoid_default_addr_size): /soc/qcom,pcie@1c00000/pcie0_rp/pcie0_bus1_dev0_fn0/pcie0_bus2_dev2_fn0/aquantia,aqc107@pcie0_bus2_dev1_fn0: Relying on default #address-cells value
+<stdout>: Warning (avoid_default_addr_size): /soc/qcom,pcie@1c00000/pcie0_rp/pcie0_bus1_dev0_fn0/pcie0_bus2_dev2_fn0/aquantia,aqc107@pcie0_bus2_dev1_fn0: Relying on default #size-cells value
+<stdout>: Warning (avoid_default_addr_size): /soc/qcom,pcie@1c00000/pcie0_rp/realtek,rtl8125@pcie0_rp: Relying on default #address-cells value
+<stdout>: Warning (avoid_default_addr_size): /soc/qcom,pcie@1c00000/pcie0_rp/realtek,rtl8125@pcie0_rp: Relying on default #size-cells value
+<stdout>: Warning (avoid_default_addr_size): /soc/qcom,pcie@1c00000/pcie0_rp/aquantia,aqc107@pcie0_rp: Relying on default #address-cells value
+<stdout>: Warning (avoid_default_addr_size): /soc/qcom,pcie@1c00000/pcie0_rp/aquantia,aqc107@pcie0_rp: Relying on default #size-cells value
+<stdout>: Warning (avoid_default_addr_size): /soc/qcom,cnss-qca6390@a0000000/mhi_channels/mhi_chan@4: Relying on default #address-cells value
+<stdout>: Warning (avoid_default_addr_size): /soc/qcom,cnss-qca6390@a0000000/mhi_channels/mhi_chan@4: Relying on default #size-cells value
+<stdout>: Warning (avoid_default_addr_size): /soc/qcom,cnss-qca6390@a0000000/mhi_channels/mhi_chan@5: Relying on default #address-cells value
+<stdout>: Warning (avoid_default_addr_size): /soc/qcom,cnss-qca6390@a0000000/mhi_channels/mhi_chan@5: Relying on default #size-cells value
+<stdout>: Warning (avoid_default_addr_size): /soc/qcom,cnss-qca6390@a0000000/mhi_channels/mhi_chan@21: Relying on default #address-cells value
+<stdout>: Warning (avoid_default_addr_size): /soc/qcom,cnss-qca6390@a0000000/mhi_channels/mhi_chan@21: Relying on default #size-cells value
+<stdout>: Warning (avoid_default_addr_size): /soc/qcom,cnss-qca6390@a0000000/mhi_channels/mhi_chan@20: Relying on default #address-cells value
+<stdout>: Warning (avoid_default_addr_size): /soc/qcom,cnss-qca6390@a0000000/mhi_channels/mhi_chan@20: Relying on default #size-cells value
+<stdout>: Warning (avoid_default_addr_size): /soc/qcom,cnss-qca6390@a0000000/mhi_channels/mhi_chan@0: Relying on default #address-cells value
+<stdout>: Warning (avoid_default_addr_size): /soc/qcom,cnss-qca6390@a0000000/mhi_channels/mhi_chan@0: Relying on default #size-cells value
+<stdout>: Warning (avoid_default_addr_size): /soc/qcom,cnss-qca6390@a0000000/mhi_channels/mhi_chan@1: Relying on default #address-cells value
+<stdout>: Warning (avoid_default_addr_size): /soc/qcom,cnss-qca6390@a0000000/mhi_channels/mhi_chan@1: Relying on default #size-cells value
+<stdout>: Warning (avoid_unnecessary_addr_size): Failed prerequisite 'avoid_default_addr_size'
+<stdout>: Warning (unique_unit_address): Failed prerequisite 'avoid_default_addr_size'
+<stdout>: Warning (clocks_property): /soc/qcom,mss@4080000:clocks: cell 0 is not a phandle reference
+<stdout>: Warning (clocks_property): /soc/cti@6017000:clocks: cell 0 is not a phandle reference
+<stdout>: Warning (clocks_property): /soc/stm@6002000:clocks: cell 0 is not a phandle reference
+<stdout>: Warning (clocks_property): /soc/spi@838000:clocks: cell 0 is not a phandle reference
+<stdout>: Warning (clocks_property): /soc/spi@838000:clocks: cell 2 is not a phandle reference
+<stdout>: Warning (clocks_property): /soc/tpdm@6b03000:clocks: cell 0 is not a phandle reference
+<stdout>: Warning (clocks_property): /soc/cti@6013000:clocks: cell 0 is not a phandle reference
+<stdout>: Warning (clocks_property): /soc/uarta@832000:clocks: cell 0 is not a phandle reference
+<stdout>: Warning (clocks_property): /soc/uarta@832000:clocks: cell 2 is not a phandle reference
+<stdout>: Warning (clocks_property): /soc/cti@601d000:clocks: cell 0 is not a phandle reference
+<stdout>: Warning (clocks_property): /soc/tpdm@6b02000:clocks: cell 0 is not a phandle reference
+<stdout>: Warning (clocks_property): /soc/funnel@6804000:clocks: cell 0 is not a phandle reference
+<stdout>: Warning (clocks_property): /soc/qcom,pcie@1c00000:clocks: cell 0 is not a phandle reference
+<stdout>: Warning (clocks_property): /soc/qcom,pcie@1c00000:clocks: cell 2 is not a phandle reference
+<stdout>: Warning (clocks_property): /soc/qcom,pcie@1c00000:clocks: cell 4 is not a phandle reference
+<stdout>: Warning (clocks_property): /soc/qcom,pcie@1c00000:clocks: cell 6 is not a phandle reference
+<stdout>: Warning (clocks_property): /soc/qcom,pcie@1c00000:clocks: cell 8 is not a phandle reference
+<stdout>: Warning (clocks_property): /soc/qcom,pcie@1c00000:clocks: cell 10 is not a phandle reference
+<stdout>: Warning (clocks_property): /soc/qcom,pcie@1c00000:clocks: cell 12 is not a phandle reference
+<stdout>: Warning (clocks_property): /soc/qcom,pcie@1c00000:clocks: cell 14 is not a phandle reference
+<stdout>: Warning (clocks_property): /soc/qcom,pcie@1c00000:clocks: cell 16 is not a phandle reference
+<stdout>: Warning (clocks_property): /soc/qcom,pcie@1c00000:clocks: cell 18 is not a phandle reference
+<stdout>: Warning (clocks_property): /soc/cti@6012000:clocks: cell 0 is not a phandle reference
+<stdout>: Warning (clocks_property): /soc/funnel@680c000:clocks: cell 0 is not a phandle reference
+<stdout>: Warning (clocks_property): /soc/tpda@6b01000:clocks: cell 0 is not a phandle reference
+<stdout>: Warning (clocks_property): /soc/cti@601e000:clocks: cell 0 is not a phandle reference
+<stdout>: Warning (clocks_property): /soc/i2c@838000:clocks: cell 0 is not a phandle reference
+<stdout>: Warning (clocks_property): /soc/i2c@838000:clocks: cell 2 is not a phandle reference
+<stdout>: Warning (clocks_property): /soc/cti@6016000:clocks: cell 0 is not a phandle reference
+<stdout>: Warning (clocks_property): /soc/cti@601a000:clocks: cell 0 is not a phandle reference
+<stdout>: Warning (clocks_property): /soc/qcom,msm-eud@ff0000:clocks: cell 0 is not a phandle reference
+<stdout>: Warning (clocks_property): /soc/qcom,gcc@100000:clocks: cell 0 is not a phandle reference
+<stdout>: Warning (clocks_property): /soc/hsphy@ff4000:clocks: cell 0 is not a phandle reference
+<stdout>: Warning (clocks_property): /soc/hsphy@ff4000:clocks: cell 2 is not a phandle reference
+<stdout>: Warning (clocks_property): /soc/tpdm@6c28000:clocks: cell 0 is not a phandle reference
+<stdout>: Warning (clocks_property): /soc/i2c@837000:clocks: cell 0 is not a phandle reference
+<stdout>: Warning (clocks_property): /soc/i2c@837000:clocks: cell 2 is not a phandle reference
+<stdout>: Warning (clocks_property): /soc/i2c@837000/tavil_codec:clocks: cell 0 is not a phandle reference
+<stdout>: Warning (clocks_property): /soc/cti@69e4000:clocks: cell 0 is not a phandle reference
+<stdout>: Warning (clocks_property): /soc/cti@7003000:clocks: cell 0 is not a phandle reference
+<stdout>: Warning (clocks_property): /soc/uartb@82f000:clocks: cell 0 is not a phandle reference
+<stdout>: Warning (clocks_property): /soc/uartb@82f000:clocks: cell 2 is not a phandle reference
+<stdout>: Warning (clocks_property): /soc/cti@6019000:clocks: cell 0 is not a phandle reference
+<stdout>: Warning (clocks_property): /soc/funnel@6042000:clocks: cell 0 is not a phandle reference
+<stdout>: Warning (clocks_property): /soc/qcom,spmi@c440000/qcom,pm8150b@2/clock-controller@6000:clocks: cell 0 is not a phandle reference
+<stdout>: Warning (clocks_property): /soc/qcom,spmi@c440000/qcom,pmxprairie@8/clock-controller@5b00:clocks: cell 0 is not a phandle reference
+<stdout>: Warning (clocks_property): /soc/spi@836000:clocks: cell 0 is not a phandle reference
+<stdout>: Warning (clocks_property): /soc/spi@836000:clocks: cell 2 is not a phandle reference
+<stdout>: Warning (clocks_property): /soc/qcom,ethernet@00020000:clocks: cell 0 is not a phandle reference
+<stdout>: Warning (clocks_property): /soc/qcom,ethernet@00020000:clocks: cell 2 is not a phandle reference
+<stdout>: Warning (clocks_property): /soc/qcom,ethernet@00020000:clocks: cell 4 is not a phandle reference
+<stdout>: Warning (clocks_property): /soc/qcom,ethernet@00020000:clocks: cell 6 is not a phandle reference
+<stdout>: Warning (clocks_property): /soc/cti@6b04000:clocks: cell 0 is not a phandle reference
+<stdout>: Warning (clocks_property): /soc/replicator@6046000:clocks: cell 0 is not a phandle reference
+<stdout>: Warning (clocks_property): /soc/cti@6018000:clocks: cell 0 is not a phandle reference
+<stdout>: Warning (clocks_property): /soc/uartb@830000:clocks: cell 0 is not a phandle reference
+<stdout>: Warning (clocks_property): /soc/uartb@830000:clocks: cell 2 is not a phandle reference
+<stdout>: Warning (clocks_property): /soc/spi@837000:clocks: cell 0 is not a phandle reference
+<stdout>: Warning (clocks_property): /soc/spi@837000:clocks: cell 2 is not a phandle reference
+<stdout>: Warning (clocks_property): /soc/cti@69e1000:clocks: cell 0 is not a phandle reference
+<stdout>: Warning (clocks_property): /soc/cti@6b05000:clocks: cell 0 is not a phandle reference
+<stdout>: Warning (clocks_property): /soc/tmc@6b09000:clocks: cell 0 is not a phandle reference
+<stdout>: Warning (clocks_property): /soc/i2c@836000:clocks: cell 0 is not a phandle reference
+<stdout>: Warning (clocks_property): /soc/i2c@836000:clocks: cell 2 is not a phandle reference
+<stdout>: Warning (clocks_property): /soc/cti@69e5000:clocks: cell 0 is not a phandle reference
+<stdout>: Warning (clocks_property): /soc/qcom,pcie@40002000:clocks: cell 0 is not a phandle reference
+<stdout>: Warning (clocks_property): /soc/qcom,pcie@40002000:clocks: cell 2 is not a phandle reference
+<stdout>: Warning (clocks_property): /soc/qcom,pcie@40002000:clocks: cell 4 is not a phandle reference
+<stdout>: Warning (clocks_property): /soc/qcom,pcie@40002000:clocks: cell 6 is not a phandle reference
+<stdout>: Warning (clocks_property): /soc/qcom,pcie@40002000:clocks: cell 8 is not a phandle reference
+<stdout>: Warning (clocks_property): /soc/qcom,pcie@40002000:clocks: cell 10 is not a phandle reference
+<stdout>: Warning (clocks_property): /soc/qcom,pcie@40002000:clocks: cell 12 is not a phandle reference
+<stdout>: Warning (clocks_property): /soc/qcom,pcie@40002000:clocks: cell 14 is not a phandle reference
+<stdout>: Warning (clocks_property): /soc/csr@6b0e000:clocks: cell 0 is not a phandle reference
+<stdout>: Warning (clocks_property): /soc/serial@831000:clocks: cell 0 is not a phandle reference
+<stdout>: Warning (clocks_property): /soc/serial@831000:clocks: cell 2 is not a phandle reference
+<stdout>: Warning (clocks_property): /soc/cti@6b06000:clocks: cell 0 is not a phandle reference
+<stdout>: Warning (clocks_property): /soc/tgu@6b0c000:clocks: cell 0 is not a phandle reference
+<stdout>: Warning (clocks_property): /soc/i2c@835000:clocks: cell 0 is not a phandle reference
+<stdout>: Warning (clocks_property): /soc/i2c@835000:clocks: cell 2 is not a phandle reference
+<stdout>: Warning (clocks_property): /soc/funnel@6b08000:clocks: cell 0 is not a phandle reference
+<stdout>: Warning (clocks_property): /soc/cti@69e6000:clocks: cell 0 is not a phandle reference
+<stdout>: Warning (clocks_property): /soc/funnel@6005000:clocks: cell 0 is not a phandle reference
+<stdout>: Warning (clocks_property): /soc/etm@7002000:clocks: cell 0 is not a phandle reference
+<stdout>: Warning (clocks_property): /soc/funnel@6045000:clocks: cell 0 is not a phandle reference
+<stdout>: Warning (clocks_property): /soc/ssphy@ff6000:clocks: cell 0 is not a phandle reference
+<stdout>: Warning (clocks_property): /soc/ssphy@ff6000:clocks: cell 2 is not a phandle reference
+<stdout>: Warning (clocks_property): /soc/ssphy@ff6000:clocks: cell 4 is not a phandle reference
+<stdout>: Warning (clocks_property): /soc/ssphy@ff6000:clocks: cell 6 is not a phandle reference
+<stdout>: Warning (clocks_property): /soc/sdhci@8804000:clocks: cell 0 is not a phandle reference
+<stdout>: Warning (clocks_property): /soc/sdhci@8804000:clocks: cell 2 is not a phandle reference
+<stdout>: Warning (clocks_property): /soc/funnel@6041000:clocks: cell 0 is not a phandle reference
+<stdout>: Warning (clocks_property): /soc/uartb@832000:clocks: cell 0 is not a phandle reference
+<stdout>: Warning (clocks_property): /soc/uartb@832000:clocks: cell 2 is not a phandle reference
+<stdout>: Warning (clocks_property): /soc/nand@1b00000:clocks: cell 0 is not a phandle reference
+<stdout>: Warning (clocks_property): /soc/ssusb@a600000:clocks: cell 0 is not a phandle reference
+<stdout>: Warning (clocks_property): /soc/ssusb@a600000:clocks: cell 2 is not a phandle reference
+<stdout>: Warning (clocks_property): /soc/ssusb@a600000:clocks: cell 4 is not a phandle reference
+<stdout>: Warning (clocks_property): /soc/ssusb@a600000:clocks: cell 6 is not a phandle reference
+<stdout>: Warning (clocks_property): /soc/ssusb@a600000:clocks: cell 8 is not a phandle reference
+<stdout>: Warning (clocks_property): /soc/ssusb@a600000:clocks: cell 10 is not a phandle reference
+<stdout>: Warning (clocks_property): /soc/spi@835000:clocks: cell 0 is not a phandle reference
+<stdout>: Warning (clocks_property): /soc/spi@835000:clocks: cell 2 is not a phandle reference
+<stdout>: Warning (clocks_property): /soc/qcom,cc-debug:clocks: cell 0 is not a phandle reference
+<stdout>: Warning (clocks_property): /soc/cti@6b07000:clocks: cell 0 is not a phandle reference
+<stdout>: Warning (clocks_property): /soc/tpda@6004000:clocks: cell 0 is not a phandle reference
+<stdout>: Warning (clocks_property): /soc/tpda@6803000:clocks: cell 0 is not a phandle reference
+<stdout>: Warning (clocks_property): /soc/qcom,msm-cpufreq:clocks: cell 0 is not a phandle reference
+<stdout>: Warning (clocks_property): /soc/cti@6011000:clocks: cell 0 is not a phandle reference
+<stdout>: Warning (clocks_property): /soc/tmc@6048000:clocks: cell 0 is not a phandle reference
+<stdout>: Warning (clocks_property): /soc/uarta@830000:clocks: cell 0 is not a phandle reference
+<stdout>: Warning (clocks_property): /soc/uarta@830000:clocks: cell 2 is not a phandle reference
+<stdout>: Warning (clocks_property): /soc/funnel@69e2000:clocks: cell 0 is not a phandle reference
+<stdout>: Warning (clocks_property): /soc/uart@831000:clocks: cell 0 is not a phandle reference
+<stdout>: Warning (clocks_property): /soc/uart@831000:clocks: cell 2 is not a phandle reference
+<stdout>: Warning (clocks_property): /soc/tpdm@6800000:clocks: cell 0 is not a phandle reference
+<stdout>: Warning (clocks_property): /soc/cti@601f000:clocks: cell 0 is not a phandle reference
+<stdout>: Warning (clocks_property): /soc/qcom,emac@00020000:clocks: cell 0 is not a phandle reference
+<stdout>: Warning (clocks_property): /soc/qcom,emac@00020000:clocks: cell 2 is not a phandle reference
+<stdout>: Warning (clocks_property): /soc/qcom,emac@00020000:clocks: cell 4 is not a phandle reference
+<stdout>: Warning (clocks_property): /soc/qcom,emac@00020000:clocks: cell 6 is not a phandle reference
+<stdout>: Warning (clocks_property): /soc/cti@6015000:clocks: cell 0 is not a phandle reference
+<stdout>: Warning (clocks_property): /soc/qcom,clock-cpu@17808100:clocks: cell 0 is not a phandle reference
+<stdout>: Warning (clocks_property): /soc/cti@601b000:clocks: cell 0 is not a phandle reference
+<stdout>: Warning (clocks_property): /soc/tpdm@69e0000:clocks: cell 0 is not a phandle reference
+<stdout>: Warning (clocks_property): /soc/tpdm@6870000:clocks: cell 0 is not a phandle reference
+<stdout>: Warning (clocks_property): /soc/cti@6014000:clocks: cell 0 is not a phandle reference
+<stdout>: Warning (clocks_property): /soc/replicator@6b0a000:clocks: cell 0 is not a phandle reference
+<stdout>: Warning (clocks_property): /soc/cti@601c000:clocks: cell 0 is not a phandle reference
+<stdout>: Warning (clocks_property): /soc/tpdm@6840000:clocks: cell 0 is not a phandle reference
+<stdout>: Warning (clocks_property): /soc/cti@6010000:clocks: cell 0 is not a phandle reference
+<stdout>: Warning (clocks_property): /soc/funnel@680a000:clocks: cell 0 is not a phandle reference
+<stdout>: Warning (clocks_property): /soc/uarta@82f000:clocks: cell 0 is not a phandle reference
+<stdout>: Warning (clocks_property): /soc/uarta@82f000:clocks: cell 2 is not a phandle reference
+<stdout>: Warning (clocks_property): /ebi2@1b00000:clocks: cell 0 is not a phandle reference
+<stdout>: Warning (cooling_device_property): /soc/thermal-zones/ipa-lowf/cooling-maps/modem_vdd_cdev:cooling-device: cell 0 is not a phandle reference
+<stdout>: Warning (cooling_device_property): /soc/thermal-zones/ipa-lowf/cooling-maps/cpu0_cdev:cooling-device: cell 0 is not a phandle reference
+<stdout>: Warning (cooling_device_property): /soc/thermal-zones/ipa-lowf/cooling-maps/cx_vdd_cdev:cooling-device: cell 0 is not a phandle reference
+<stdout>: Warning (cooling_device_property): /soc/thermal-zones/ipa-lowf/cooling-maps/mx_vdd_cdev:cooling-device: cell 0 is not a phandle reference
+<stdout>: Warning (cooling_device_property): /soc/thermal-zones/mdm-core-lowf/cooling-maps/modem_vdd_cdev:cooling-device: cell 0 is not a phandle reference
+<stdout>: Warning (cooling_device_property): /soc/thermal-zones/mdm-core-lowf/cooling-maps/cpu0_cdev:cooling-device: cell 0 is not a phandle reference
+<stdout>: Warning (cooling_device_property): /soc/thermal-zones/mdm-core-lowf/cooling-maps/cx_vdd_cdev:cooling-device: cell 0 is not a phandle reference
+<stdout>: Warning (cooling_device_property): /soc/thermal-zones/mdm-core-lowf/cooling-maps/mx_vdd_cdev:cooling-device: cell 0 is not a phandle reference
+<stdout>: Warning (cooling_device_property): /soc/thermal-zones/nobat-lte-sub6-pa2/cooling-maps/skin_modem_lvl0:cooling-device: cell 0 is not a phandle reference
+<stdout>: Warning (cooling_device_property): /soc/thermal-zones/nobat-lte-sub6-pa2/cooling-maps/skin_modem_lvl1:cooling-device: cell 0 is not a phandle reference
+<stdout>: Warning (cooling_device_property): /soc/thermal-zones/nobat-lte-sub6-pa2/cooling-maps/skin_modem_lvl3:cooling-device: cell 0 is not a phandle reference
+<stdout>: Warning (cooling_device_property): /soc/thermal-zones/nobat-lte-sub6-pa2/cooling-maps/skin_modem_lvl4:cooling-device: cell 0 is not a phandle reference
+<stdout>: Warning (cooling_device_property): /soc/thermal-zones/nobat-lte-sub6-pa2/cooling-maps/skin_modem_lvl5:cooling-device: cell 0 is not a phandle reference
+<stdout>: Warning (cooling_device_property): /soc/thermal-zones/nobat-lte-sub6-pa2/cooling-maps/skin_modem_lvl2:cooling-device: cell 0 is not a phandle reference
+<stdout>: Warning (cooling_device_property): /soc/thermal-zones/bat-5gnr-mmw/cooling-maps/skin_modem_lvl9:cooling-device: cell 0 is not a phandle reference
+<stdout>: Warning (cooling_device_property): /soc/thermal-zones/bat-5gnr-mmw/cooling-maps/skin_modem_lvl7:cooling-device: cell 0 is not a phandle reference
+<stdout>: Warning (cooling_device_property): /soc/thermal-zones/bat-5gnr-mmw/cooling-maps/skin_modem_lvl0:cooling-device: cell 0 is not a phandle reference
+<stdout>: Warning (cooling_device_property): /soc/thermal-zones/bat-5gnr-mmw/cooling-maps/skin_modem_lvl1:cooling-device: cell 0 is not a phandle reference
+<stdout>: Warning (cooling_device_property): /soc/thermal-zones/bat-5gnr-mmw/cooling-maps/skin_modem_lvl6:cooling-device: cell 0 is not a phandle reference
+<stdout>: Warning (cooling_device_property): /soc/thermal-zones/bat-5gnr-mmw/cooling-maps/skin_modem_lvl8:cooling-device: cell 0 is not a phandle reference
+<stdout>: Warning (cooling_device_property): /soc/thermal-zones/bat-5gnr-mmw/cooling-maps/skin_modem_lvl11:cooling-device: cell 0 is not a phandle reference
+<stdout>: Warning (cooling_device_property): /soc/thermal-zones/bat-5gnr-mmw/cooling-maps/skin_modem_lvl10:cooling-device: cell 0 is not a phandle reference
+<stdout>: Warning (cooling_device_property): /soc/thermal-zones/bat-5gnr-mmw/cooling-maps/skin_modem_lvl3:cooling-device: cell 0 is not a phandle reference
+<stdout>: Warning (cooling_device_property): /soc/thermal-zones/bat-5gnr-mmw/cooling-maps/skin_modem_lvl4:cooling-device: cell 0 is not a phandle reference
+<stdout>: Warning (cooling_device_property): /soc/thermal-zones/bat-5gnr-mmw/cooling-maps/skin_modem_lvl5:cooling-device: cell 0 is not a phandle reference
+<stdout>: Warning (cooling_device_property): /soc/thermal-zones/bat-5gnr-mmw/cooling-maps/skin_modem_lvl2:cooling-device: cell 0 is not a phandle reference
+<stdout>: Warning (cooling_device_property): /soc/thermal-zones/mdm-core-0-step/cooling-maps/modem_tj0_cdev:cooling-device: cell 0 is not a phandle reference
+<stdout>: Warning (cooling_device_property): /soc/thermal-zones/mdm-core-0-step/cooling-maps/modem_tj1_cdev:cooling-device: cell 0 is not a phandle reference
+<stdout>: Warning (cooling_device_property): /soc/thermal-zones/mdm-core-0-step/cooling-maps/modem_tj2_cdev:cooling-device: cell 0 is not a phandle reference
+<stdout>: Warning (cooling_device_property): /soc/thermal-zones/nobat-5gnr-mmw/cooling-maps/skin_modem_lvl9:cooling-device: cell 0 is not a phandle reference
+<stdout>: Warning (cooling_device_property): /soc/thermal-zones/nobat-5gnr-mmw/cooling-maps/skin_modem_lvl7:cooling-device: cell 0 is not a phandle reference
+<stdout>: Warning (cooling_device_property): /soc/thermal-zones/nobat-5gnr-mmw/cooling-maps/skin_modem_lvl0:cooling-device: cell 0 is not a phandle reference
+<stdout>: Warning (cooling_device_property): /soc/thermal-zones/nobat-5gnr-mmw/cooling-maps/skin_modem_lvl1:cooling-device: cell 0 is not a phandle reference
+<stdout>: Warning (cooling_device_property): /soc/thermal-zones/nobat-5gnr-mmw/cooling-maps/skin_modem_lvl6:cooling-device: cell 0 is not a phandle reference
+<stdout>: Warning (cooling_device_property): /soc/thermal-zones/nobat-5gnr-mmw/cooling-maps/skin_modem_lvl8:cooling-device: cell 0 is not a phandle reference
+<stdout>: Warning (cooling_device_property): /soc/thermal-zones/nobat-5gnr-mmw/cooling-maps/skin_modem_lvl11:cooling-device: cell 0 is not a phandle reference
+<stdout>: Warning (cooling_device_property): /soc/thermal-zones/nobat-5gnr-mmw/cooling-maps/skin_modem_lvl10:cooling-device: cell 0 is not a phandle reference
+<stdout>: Warning (cooling_device_property): /soc/thermal-zones/nobat-5gnr-mmw/cooling-maps/skin_modem_lvl3:cooling-device: cell 0 is not a phandle reference
+<stdout>: Warning (cooling_device_property): /soc/thermal-zones/nobat-5gnr-mmw/cooling-maps/skin_modem_lvl4:cooling-device: cell 0 is not a phandle reference
+<stdout>: Warning (cooling_device_property): /soc/thermal-zones/nobat-5gnr-mmw/cooling-maps/skin_modem_lvl5:cooling-device: cell 0 is not a phandle reference
+<stdout>: Warning (cooling_device_property): /soc/thermal-zones/nobat-5gnr-mmw/cooling-maps/skin_modem_lvl2:cooling-device: cell 0 is not a phandle reference
+<stdout>: Warning (cooling_device_property): /soc/thermal-zones/mdm-q6-lowf/cooling-maps/modem_vdd_cdev:cooling-device: cell 0 is not a phandle reference
+<stdout>: Warning (cooling_device_property): /soc/thermal-zones/mdm-q6-lowf/cooling-maps/cpu0_cdev:cooling-device: cell 0 is not a phandle reference
+<stdout>: Warning (cooling_device_property): /soc/thermal-zones/mdm-q6-lowf/cooling-maps/cx_vdd_cdev:cooling-device: cell 0 is not a phandle reference
+<stdout>: Warning (cooling_device_property): /soc/thermal-zones/mdm-q6-lowf/cooling-maps/mx_vdd_cdev:cooling-device: cell 0 is not a phandle reference
+<stdout>: Warning (cooling_device_property): /soc/thermal-zones/mdm-vpe-lowf/cooling-maps/modem_vdd_cdev:cooling-device: cell 0 is not a phandle reference
+<stdout>: Warning (cooling_device_property): /soc/thermal-zones/mdm-vpe-lowf/cooling-maps/cpu0_cdev:cooling-device: cell 0 is not a phandle reference
+<stdout>: Warning (cooling_device_property): /soc/thermal-zones/mdm-vpe-lowf/cooling-maps/cx_vdd_cdev:cooling-device: cell 0 is not a phandle reference
+<stdout>: Warning (cooling_device_property): /soc/thermal-zones/mdm-vpe-lowf/cooling-maps/mx_vdd_cdev:cooling-device: cell 0 is not a phandle reference
+<stdout>: Warning (cooling_device_property): /soc/thermal-zones/mdm-5g-lowf/cooling-maps/modem_vdd_cdev:cooling-device: cell 0 is not a phandle reference
+<stdout>: Warning (cooling_device_property): /soc/thermal-zones/mdm-5g-lowf/cooling-maps/cpu0_cdev:cooling-device: cell 0 is not a phandle reference
+<stdout>: Warning (cooling_device_property): /soc/thermal-zones/mdm-5g-lowf/cooling-maps/cx_vdd_cdev:cooling-device: cell 0 is not a phandle reference
+<stdout>: Warning (cooling_device_property): /soc/thermal-zones/mdm-5g-lowf/cooling-maps/mx_vdd_cdev:cooling-device: cell 0 is not a phandle reference
+<stdout>: Warning (cooling_device_property): /soc/thermal-zones/cpu0-a7-lowf/cooling-maps/modem_vdd_cdev:cooling-device: cell 0 is not a phandle reference
+<stdout>: Warning (cooling_device_property): /soc/thermal-zones/cpu0-a7-lowf/cooling-maps/cpu0_cdev:cooling-device: cell 0 is not a phandle reference
+<stdout>: Warning (cooling_device_property): /soc/thermal-zones/cpu0-a7-lowf/cooling-maps/cx_vdd_cdev:cooling-device: cell 0 is not a phandle reference
+<stdout>: Warning (cooling_device_property): /soc/thermal-zones/cpu0-a7-lowf/cooling-maps/mx_vdd_cdev:cooling-device: cell 0 is not a phandle reference
+<stdout>: Warning (cooling_device_property): /soc/thermal-zones/bat-lte-sub6-pa2/cooling-maps/skin_modem_lvl0:cooling-device: cell 0 is not a phandle reference
+<stdout>: Warning (cooling_device_property): /soc/thermal-zones/bat-lte-sub6-pa2/cooling-maps/skin_modem_lvl1:cooling-device: cell 0 is not a phandle reference
+<stdout>: Warning (cooling_device_property): /soc/thermal-zones/bat-lte-sub6-pa2/cooling-maps/skin_modem_lvl3:cooling-device: cell 0 is not a phandle reference
+<stdout>: Warning (cooling_device_property): /soc/thermal-zones/bat-lte-sub6-pa2/cooling-maps/skin_modem_lvl4:cooling-device: cell 0 is not a phandle reference
+<stdout>: Warning (cooling_device_property): /soc/thermal-zones/bat-lte-sub6-pa2/cooling-maps/skin_modem_lvl5:cooling-device: cell 0 is not a phandle reference
+<stdout>: Warning (cooling_device_property): /soc/thermal-zones/bat-lte-sub6-pa2/cooling-maps/skin_modem_lvl2:cooling-device: cell 0 is not a phandle reference
+<stdout>: Warning (cooling_device_property): /soc/thermal-zones/aoss0-lowf/cooling-maps/modem_vdd_cdev:cooling-device: cell 0 is not a phandle reference
+<stdout>: Warning (cooling_device_property): /soc/thermal-zones/aoss0-lowf/cooling-maps/cpu0_cdev:cooling-device: cell 0 is not a phandle reference
+<stdout>: Warning (cooling_device_property): /soc/thermal-zones/aoss0-lowf/cooling-maps/cx_vdd_cdev:cooling-device: cell 0 is not a phandle reference
+<stdout>: Warning (cooling_device_property): /soc/thermal-zones/aoss0-lowf/cooling-maps/mx_vdd_cdev:cooling-device: cell 0 is not a phandle reference
+<stdout>: Warning (dmas_property): /soc/i2c@838000:dmas: cell 0 is not a phandle reference
+<stdout>: Warning (dmas_property): /soc/i2c@838000:dmas: cell 5 is not a phandle reference
+<stdout>: Warning (dmas_property): /soc/i2c@837000:dmas: cell 0 is not a phandle reference
+<stdout>: Warning (dmas_property): /soc/i2c@837000:dmas: cell 5 is not a phandle reference
+<stdout>: Warning (dmas_property): /soc/i2c@836000:dmas: cell 0 is not a phandle reference
+<stdout>: Warning (dmas_property): /soc/i2c@836000:dmas: cell 5 is not a phandle reference
+<stdout>: Warning (dmas_property): /soc/i2c@835000:dmas: cell 0 is not a phandle reference
+<stdout>: Warning (dmas_property): /soc/i2c@835000:dmas: cell 5 is not a phandle reference
+<stdout>: Warning (hwlocks_property): /soc/qcom,smem:hwlocks: cell 0 is not a phandle reference
+<stdout>: Warning (interrupts_extended_property): /soc/qcom,mss@4080000:interrupts-extended: cell 0 is not a phandle reference
+<stdout>: Warning (interrupts_extended_property): /soc/qcom,mss@4080000:interrupts-extended: cell 4 is not a phandle reference
+<stdout>: Warning (interrupts_extended_property): /soc/qcom,mss@4080000:interrupts-extended: cell 7 is not a phandle reference
+<stdout>: Warning (interrupts_extended_property): /soc/qcom,mss@4080000:interrupts-extended: cell 10 is not a phandle reference
+<stdout>: Warning (interrupts_extended_property): /soc/qcom,mss@4080000:interrupts-extended: cell 13 is not a phandle reference
+<stdout>: Warning (interrupts_extended_property): /soc/qcom,mss@4080000:interrupts-extended: cell 16 is not a phandle reference
+<stdout>: Warning (interrupts_extended_property): /soc/qcom,ethernet@00020000:interrupts-extended: cell 0 is not a phandle reference
+<stdout>: Warning (interrupts_extended_property): /soc/qcom,ethernet@00020000:interrupts-extended: cell 4 is not a phandle reference
+<stdout>: Warning (interrupts_extended_property): /soc/qcom,ethernet@00020000:interrupts-extended: cell 8 is not a phandle reference
+<stdout>: Warning (interrupts_extended_property): /soc/qcom,ethernet@00020000:interrupts-extended: cell 11 is not a phandle reference
+<stdout>: Warning (interrupts_extended_property): /soc/qcom,ethernet@00020000:interrupts-extended: cell 15 is not a phandle reference
+<stdout>: Warning (interrupts_extended_property): /soc/qcom,emac@00020000:interrupts-extended: cell 0 is not a phandle reference
+<stdout>: Warning (interrupts_extended_property): /soc/qcom,emac@00020000:interrupts-extended: cell 4 is not a phandle reference
+<stdout>: Warning (interrupts_extended_property): /soc/qcom,emac@00020000:interrupts-extended: cell 8 is not a phandle reference
+<stdout>: Warning (interrupts_extended_property): /soc/qcom,emac@00020000:interrupts-extended: cell 11 is not a phandle reference
+<stdout>: Warning (interrupts_extended_property): /soc/qcom,emac@00020000:interrupts-extended: cell 15 is not a phandle reference
+<stdout>: Warning (interrupts_extended_property): /soc/qcom,emac@00020000:interrupts-extended: cell 19 is not a phandle reference
+<stdout>: Warning (interrupts_extended_property): /soc/qcom,emac@00020000:interrupts-extended: cell 23 is not a phandle reference
+<stdout>: Warning (interrupts_extended_property): /soc/qcom,emac@00020000:interrupts-extended: cell 27 is not a phandle reference
+<stdout>: Warning (interrupts_extended_property): /soc/qcom,emac@00020000:interrupts-extended: cell 31 is not a phandle reference
+<stdout>: Warning (interrupts_extended_property): /soc/qcom,emac@00020000:interrupts-extended: cell 35 is not a phandle reference
+<stdout>: Warning (interrupts_extended_property): /soc/qcom,emac@00020000:interrupts-extended: cell 39 is not a phandle reference
+<stdout>: Warning (interrupts_extended_property): /soc/qcom,emac@00020000:interrupts-extended: cell 43 is not a phandle reference
+<stdout>: Warning (interrupts_extended_property): /soc/qcom,emac@00020000:interrupts-extended: cell 47 is not a phandle reference
+<stdout>: Warning (interrupts_extended_property): /soc/qcom,emac@00020000:interrupts-extended: cell 51 is not a phandle reference
+<stdout>: Warning (interrupts_extended_property): /soc/qcom,ipa@01e00000/qcom,smp2p_map_ipa_1_in:interrupts-extended: cell 0 is not a phandle reference
+<stdout>: Warning (io_channels_property): /soc/qcom,spmi@c440000/qcom,pm8150b@2/adc_tm@3500:io-channels: cell 0 is not a phandle reference
+<stdout>: Warning (io_channels_property): /soc/qcom,spmi@c440000/qcom,pm8150b@2/qcom,temp-alarm@2400:io-channels: cell 0 is not a phandle reference
+<stdout>: Warning (io_channels_property): /soc/qcom,spmi@c440000/qcom,pm8150b@2/qcom,qpnp-smb5:io-channels: cell 0 is not a phandle reference
+<stdout>: Warning (io_channels_property): /soc/qcom,spmi@c440000/qcom,pm8150b@2/qcom,qpnp-smb5:io-channels: cell 2 is not a phandle reference
+<stdout>: Warning (io_channels_property): /soc/qcom,spmi@c440000/qcom,pm8150b@2/qcom,qpnp-smb5:io-channels: cell 4 is not a phandle reference
+<stdout>: Warning (io_channels_property): /soc/qcom,spmi@c440000/qcom,pm8150b@2/qcom,qpnp-smb5:io-channels: cell 6 is not a phandle reference
+<stdout>: Warning (io_channels_property): /soc/qcom,spmi@c440000/qcom,pm8150b@2/qcom,qpnp-smb5:io-channels: cell 8 is not a phandle reference
+<stdout>: Warning (io_channels_property): /soc/qcom,spmi@c440000/qcom,pm8150b@2/qcom,qpnp-smb5:io-channels: cell 10 is not a phandle reference
+<stdout>: Warning (io_channels_property): /soc/qcom,spmi@c440000/qcom,pmxprairie@8/adc_tm@3500:io-channels: cell 0 is not a phandle reference
+<stdout>: Warning (io_channels_property): /soc/qcom,spmi@c440000/qcom,pmxprairie@8/adc_tm@3500:io-channels: cell 2 is not a phandle reference
+<stdout>: Warning (io_channels_property): /soc/qcom,spmi@c440000/qcom,pmxprairie@8/adc_tm@3500:io-channels: cell 4 is not a phandle reference
+<stdout>: Warning (io_channels_property): /soc/qcom,spmi@c440000/qcom,pmxprairie@8/adc_tm@3500:io-channels: cell 6 is not a phandle reference
+<stdout>: Warning (io_channels_property): /soc/qcom,spmi@c440000/qcom,pmxprairie@8/adc_tm@3500:io-channels: cell 8 is not a phandle reference
+<stdout>: Warning (io_channels_property): /soc/qcom,spmi@c440000/qcom,pmxprairie@8/qcom,temp-alarm@2400:io-channels: cell 0 is not a phandle reference
+<stdout>: Warning (iommus_property): /soc/qcom,ethernet@00020000/ethqos_emb_smmu:iommus: cell 0 is not a phandle reference
+<stdout>: Warning (iommus_property): /soc/qcrypto@1de0000:iommus: cell 0 is not a phandle reference
+<stdout>: Warning (iommus_property): /soc/qcrypto@1de0000:iommus: cell 3 is not a phandle reference
+<stdout>: Warning (iommus_property): /soc/qcedev@1de0000:iommus: cell 0 is not a phandle reference
+<stdout>: Warning (iommus_property): /soc/qcedev@1de0000:iommus: cell 3 is not a phandle reference
+<stdout>: Warning (iommus_property): /soc/ssusb@a600000:iommus: cell 0 is not a phandle reference
+<stdout>: Warning (iommus_property): /soc/apps_iommu_test_device:iommus: cell 0 is not a phandle reference
+<stdout>: Warning (iommus_property): /soc/qcom,emac@00020000/emac_emb_smmu:iommus: cell 0 is not a phandle reference
+<stdout>: Warning (iommus_property): /soc/qcom,ipa@01e00000/ipa_smmu_uc:iommus: cell 0 is not a phandle reference
+<stdout>: Warning (iommus_property): /soc/qcom,ipa@01e00000/ipa_smmu_wlan:iommus: cell 0 is not a phandle reference
+<stdout>: Warning (iommus_property): /soc/qcom,ipa@01e00000/ipa_smmu_ap:iommus: cell 0 is not a phandle reference
+<stdout>: Warning (mboxes_property): /soc/rpmh-regulator-ldoe13:mboxes: cell 0 is not a phandle reference
+<stdout>: Warning (mboxes_property): /soc/rpmh-regulator-ldoe14:mboxes: cell 0 is not a phandle reference
+<stdout>: Warning (mboxes_property): /soc/qcom,rpmh:mboxes: cell 0 is not a phandle reference
+<stdout>: Warning (mboxes_property): /soc/rpmh-regulator-msslvl:mboxes: cell 0 is not a phandle reference
+<stdout>: Warning (mboxes_property): /soc/rpmh-regulator-ldoe15:mboxes: cell 0 is not a phandle reference
+<stdout>: Warning (mboxes_property): /soc/rpmh-regulator-ldoe12:mboxes: cell 0 is not a phandle reference
+<stdout>: Warning (mboxes_property): /soc/rpmh-regulator-ldoe3:mboxes: cell 0 is not a phandle reference
+<stdout>: Warning (mboxes_property): /soc/ad-hoc-bus:mboxes: cell 0 is not a phandle reference
+<stdout>: Warning (mboxes_property): /soc/rpmh-regulator-ldoe4:mboxes: cell 0 is not a phandle reference
+<stdout>: Warning (mboxes_property): /soc/rpmh-regulator-smpe2:mboxes: cell 0 is not a phandle reference
+<stdout>: Warning (mboxes_property): /soc/rpmh-regulator-smpe4:mboxes: cell 0 is not a phandle reference
+<stdout>: Warning (mboxes_property): /soc/rpmh-regulator-smpe3:mboxes: cell 0 is not a phandle reference
+<stdout>: Warning (mboxes_property): /soc/rpmh-regulator-ldoe5:mboxes: cell 0 is not a phandle reference
+<stdout>: Warning (mboxes_property): /soc/rpmh-regulator-ldoe2:mboxes: cell 0 is not a phandle reference
+<stdout>: Warning (mboxes_property): /soc/rpmh-regulator-cxlvl:mboxes: cell 0 is not a phandle reference
+<stdout>: Warning (mboxes_property): /soc/rpmh-regulator-cxlvl/regulator-cdev:mboxes: cell 0 is not a phandle reference
+<stdout>: Warning (mboxes_property): /soc/rpmh-regulator-vrefe2:mboxes: cell 0 is not a phandle reference
+<stdout>: Warning (mboxes_property): /soc/qcom,glink/modem:mboxes: cell 0 is not a phandle reference
+<stdout>: Warning (mboxes_property): /soc/rpmh-regulator-ldoe10:mboxes: cell 0 is not a phandle reference
+<stdout>: Warning (mboxes_property): /soc/rpmh-regulator-ldoe11:mboxes: cell 0 is not a phandle reference
+<stdout>: Warning (mboxes_property): /soc/rpmh-regulator-ldoe16:mboxes: cell 0 is not a phandle reference
+<stdout>: Warning (mboxes_property): /soc/rpmh-regulator-ldoe7:mboxes: cell 0 is not a phandle reference
+<stdout>: Warning (mboxes_property): /soc/rpmh-regulator-mxlvl:mboxes: cell 0 is not a phandle reference
+<stdout>: Warning (mboxes_property): /soc/rpmh-regulator-ldoe9:mboxes: cell 0 is not a phandle reference
+<stdout>: Warning (mboxes_property): /soc/system_pm:mboxes: cell 0 is not a phandle reference
+<stdout>: Warning (mboxes_property): /soc/rpmh-regulator-ldoe8:mboxes: cell 0 is not a phandle reference
+<stdout>: Warning (mboxes_property): /soc/rpmh-regulator-ldoe1:mboxes: cell 0 is not a phandle reference
+<stdout>: Warning (mboxes_property): /soc/rpmh-regulator-ldoe6:mboxes: cell 0 is not a phandle reference
+<stdout>: Warning (mboxes_property): /soc/qcom,emac@00020000:mboxes: cell 0 is not a phandle reference
+<stdout>: Warning (mboxes_property): /soc/qcom,ipa@01e00000:mboxes: cell 0 is not a phandle reference
+<stdout>: Warning (mboxes_property): /soc/qcom,aop:mboxes: cell 0 is not a phandle reference
+<stdout>: Warning (mboxes_property): /soc/qcom,smp2p-modem@1799000c:mboxes: cell 0 is not a phandle reference
+<stdout>: Warning (mboxes_property): /soc/aop-msg-client:mboxes: cell 0 is not a phandle reference
+<stdout>: Warning (msi_parent_property): /soc/qcom,pcie@1c00000:msi-parent: cell 0 is not a phandle reference
+<stdout>: Warning (resets_property): /soc/qcom,pcie@1c00000:resets: cell 0 is not a phandle reference
+<stdout>: Warning (resets_property): /soc/qcom,pcie@1c00000:resets: cell 2 is not a phandle reference
+<stdout>: Warning (resets_property): /soc/hsphy@ff4000:resets: cell 0 is not a phandle reference
+<stdout>: Warning (resets_property): /soc/qcom,pcie@40002000:resets: cell 0 is not a phandle reference
+<stdout>: Warning (resets_property): /soc/qcom,pcie@40002000:resets: cell 2 is not a phandle reference
+<stdout>: Warning (resets_property): /soc/ssphy@ff6000:resets: cell 0 is not a phandle reference
+<stdout>: Warning (resets_property): /soc/ssphy@ff6000:resets: cell 2 is not a phandle reference
+<stdout>: Warning (resets_property): /soc/ssusb@a600000:resets: cell 0 is not a phandle reference
+<stdout>: Warning (thermal_sensors_property): /soc/thermal-zones/pm8150b-ibat-lvl0:thermal-sensors: cell 0 is not a phandle reference
+<stdout>: Warning (thermal_sensors_property): /soc/thermal-zones/ipa-lowf:thermal-sensors: cell 0 is not a phandle reference
+<stdout>: Warning (thermal_sensors_property): /soc/thermal-zones/pm8150b-ibat-lvl1:thermal-sensors: cell 0 is not a phandle reference
+<stdout>: Warning (thermal_sensors_property): /soc/thermal-zones/modem-mmw3-mod-usr:thermal-sensors: cell 0 is not a phandle reference
+<stdout>: Warning (thermal_sensors_property): /soc/thermal-zones/mdm-core-lowf:thermal-sensors: cell 0 is not a phandle reference
+<stdout>: Warning (thermal_sensors_property): /soc/thermal-zones/nobat-lte-sub6-pa2:thermal-sensors: cell 0 is not a phandle reference
+<stdout>: Warning (thermal_sensors_property): /soc/thermal-zones/pm8150b-bcl-lvl1:thermal-sensors: cell 0 is not a phandle reference
+<stdout>: Warning (thermal_sensors_property): /soc/thermal-zones/modem-mmw2-mod-usr:thermal-sensors: cell 0 is not a phandle reference
+<stdout>: Warning (thermal_sensors_property): /soc/thermal-zones/modem-ambient-usr:thermal-sensors: cell 0 is not a phandle reference
+<stdout>: Warning (thermal_sensors_property): /soc/thermal-zones/modem-skin-usr:thermal-sensors: cell 0 is not a phandle reference
+<stdout>: Warning (thermal_sensors_property): /soc/thermal-zones/mdm-vpe-usr:thermal-sensors: cell 0 is not a phandle reference
+<stdout>: Warning (thermal_sensors_property): /soc/thermal-zones/modem-streamer-usr:thermal-sensors: cell 0 is not a phandle reference
+<stdout>: Warning (thermal_sensors_property): /soc/thermal-zones/pm8150b-bcl-lvl0:thermal-sensors: cell 0 is not a phandle reference
+<stdout>: Warning (thermal_sensors_property): /soc/thermal-zones/pm8150b_tz:thermal-sensors: cell 0 is not a phandle reference
+<stdout>: Warning (thermal_sensors_property): /soc/thermal-zones/mdm-5g-usr:thermal-sensors: cell 0 is not a phandle reference
+<stdout>: Warning (thermal_sensors_property): /soc/thermal-zones/pm8150b-vbat-lvl0:thermal-sensors: cell 0 is not a phandle reference
+<stdout>: Warning (thermal_sensors_property): /soc/thermal-zones/ipa-usr:thermal-sensors: cell 0 is not a phandle reference
+<stdout>: Warning (thermal_sensors_property): /soc/thermal-zones/soc:thermal-sensors: cell 0 is not a phandle reference
+<stdout>: Warning (thermal_sensors_property): /soc/thermal-zones/modem-mmw0-mod-usr:thermal-sensors: cell 0 is not a phandle reference
+<stdout>: Warning (thermal_sensors_property): /soc/thermal-zones/pm8150b-vbat-lvl1:thermal-sensors: cell 0 is not a phandle reference
+<stdout>: Warning (thermal_sensors_property): /soc/thermal-zones/modem-1-usr:thermal-sensors: cell 0 is not a phandle reference
+<stdout>: Warning (thermal_sensors_property): /soc/thermal-zones/bat-5gnr-mmw:thermal-sensors: cell 0 is not a phandle reference
+<stdout>: Warning (thermal_sensors_property): /soc/thermal-zones/modem-0-usr:thermal-sensors: cell 0 is not a phandle reference
+<stdout>: Warning (thermal_sensors_property): /soc/thermal-zones/mdm-q6-usr:thermal-sensors: cell 0 is not a phandle reference
+<stdout>: Warning (thermal_sensors_property): /soc/thermal-zones/mdm-core-0-step:thermal-sensors: cell 0 is not a phandle reference
+<stdout>: Warning (thermal_sensors_property): /soc/thermal-zones/modem-lte-sub6-pa1:thermal-sensors: cell 0 is not a phandle reference
+<stdout>: Warning (thermal_sensors_property): /soc/thermal-zones/cpu0-a7-usr:thermal-sensors: cell 0 is not a phandle reference
+<stdout>: Warning (thermal_sensors_property): /soc/thermal-zones/modem-mmw1-mod-usr:thermal-sensors: cell 0 is not a phandle reference
+<stdout>: Warning (thermal_sensors_property): /soc/thermal-zones/modem-wifi-usr:thermal-sensors: cell 0 is not a phandle reference
+<stdout>: Warning (thermal_sensors_property): /soc/thermal-zones/ambient-therm-usr:thermal-sensors: cell 0 is not a phandle reference
+<stdout>: Warning (thermal_sensors_property): /soc/thermal-zones/nobat-5gnr-mmw:thermal-sensors: cell 0 is not a phandle reference
+<stdout>: Warning (thermal_sensors_property): /soc/thermal-zones/mdm-q6-lowf:thermal-sensors: cell 0 is not a phandle reference
+<stdout>: Warning (thermal_sensors_property): /soc/thermal-zones/mdm-vpe-lowf:thermal-sensors: cell 0 is not a phandle reference
+<stdout>: Warning (thermal_sensors_property): /soc/thermal-zones/pm8150b-bcl-lvl2:thermal-sensors: cell 0 is not a phandle reference
+<stdout>: Warning (thermal_sensors_property): /soc/thermal-zones/mdm-core-usr:thermal-sensors: cell 0 is not a phandle reference
+<stdout>: Warning (thermal_sensors_property): /soc/thermal-zones/pmxprairie_tz:thermal-sensors: cell 0 is not a phandle reference
+<stdout>: Warning (thermal_sensors_property): /soc/thermal-zones/xo-therm-usr:thermal-sensors: cell 0 is not a phandle reference
+<stdout>: Warning (thermal_sensors_property): /soc/thermal-zones/pm8150b-wp-therm:thermal-sensors: cell 0 is not a phandle reference
+<stdout>: Warning (thermal_sensors_property): /soc/thermal-zones/pa-therm1-usr:thermal-sensors: cell 0 is not a phandle reference
+<stdout>: Warning (thermal_sensors_property): /soc/thermal-zones/mdm-5g-lowf:thermal-sensors: cell 0 is not a phandle reference
+<stdout>: Warning (thermal_sensors_property): /soc/thermal-zones/aoss0-usr:thermal-sensors: cell 0 is not a phandle reference
+<stdout>: Warning (thermal_sensors_property): /soc/thermal-zones/cpu0-a7-lowf:thermal-sensors: cell 0 is not a phandle reference
+<stdout>: Warning (thermal_sensors_property): /soc/thermal-zones/sdx-case-therm-usr:thermal-sensors: cell 0 is not a phandle reference
+<stdout>: Warning (thermal_sensors_property): /soc/thermal-zones/pa-therm2-usr:thermal-sensors: cell 0 is not a phandle reference
+<stdout>: Warning (thermal_sensors_property): /soc/thermal-zones/bat-lte-sub6-pa2:thermal-sensors: cell 0 is not a phandle reference
+<stdout>: Warning (thermal_sensors_property): /soc/thermal-zones/pm8150b-vbat-lvl2:thermal-sensors: cell 0 is not a phandle reference
+<stdout>: Warning (thermal_sensors_property): /soc/thermal-zones/aoss0-lowf:thermal-sensors: cell 0 is not a phandle reference
+<stdout>: Warning (thermal_sensors_property): /soc/thermal-zones/modem-mmw2-usr:thermal-sensors: cell 0 is not a phandle reference
+<stdout>: Warning (thermal_sensors_property): /soc/thermal-zones/modem-lte-sub6-pa2:thermal-sensors: cell 0 is not a phandle reference
+<stdout>: Warning (thermal_sensors_property): /soc/thermal-zones/modem-mmw3-usr:thermal-sensors: cell 0 is not a phandle reference
+<stdout>: Warning (thermal_sensors_property): /soc/thermal-zones/modem-mmw1-usr:thermal-sensors: cell 0 is not a phandle reference
+<stdout>: Warning (thermal_sensors_property): /soc/thermal-zones/modem-mmw0-usr:thermal-sensors: cell 0 is not a phandle reference
+<stdout>: Warning (gpios_property): /soc/msm_cdc_pinctrl@92:qcom,cdc-rst-n-gpio: cell 0 is not a phandle reference
+<stdout>: Warning (gpios_property): /soc/qcom,pcie@1c00000:perst-gpio: cell 0 is not a phandle reference
+<stdout>: Warning (gpios_property): /soc/qcom,pcie@1c00000:wake-gpio: cell 0 is not a phandle reference
+<stdout>: Warning (gpios_property): /soc/qcom,cnss-qca6390@a0000000:wlan-en-gpio: cell 0 is not a phandle reference
+<stdout>: Warning (gpios_property): /soc/vreg_conn_pa:gpio: cell 0 is not a phandle reference
+<stdout>: Warning (gpios_property): /soc/i2c@837000/tavil_codec/wcd_pinctrl@5:qcom,num-gpios: cell 0 is not a phandle reference
+<stdout>: Warning (gpios_property): /soc/i2c@837000/tavil_codec/wcd_pinctrl@5: Missing property '#gpio-cells' in node /soc/qcom,qmp-aop@c300000 or bad phandle (referred from qcom,num-gpios[0])
+<stdout>: Warning (gpios_property): /soc/qcom,ethernet@00020000:snps,reset-gpio: cell 0 is not a phandle reference
+<stdout>: Warning (gpios_property): /soc/qcom,pcie@40002000:perst-gpio: cell 0 is not a phandle reference
+<stdout>: Warning (gpios_property): /soc/qcom,pcie@40002000:clkreq-gpio: cell 0 is not a phandle reference
+<stdout>: Warning (gpios_property): /soc/qcom,pcie@40002000:wake-gpio: cell 0 is not a phandle reference
+<stdout>: Warning (gpios_property): /soc/bt_qca6390:qca,bt-reset-gpio: cell 0 is not a phandle reference
+<stdout>: Warning (gpios_property): /soc/qcom,sdx_ext_ipc:qcom,mdm2ap-status2-gpio: cell 0 is not a phandle reference
+<stdout>: Warning (gpios_property): /soc/qcom,sdx_ext_ipc:qcom,ap2mdm-status-gpio: cell 0 is not a phandle reference
+<stdout>: Warning (gpios_property): /soc/qcom,sdx_ext_ipc:qcom,mdm2ap-status-gpio: cell 0 is not a phandle reference
+<stdout>: Warning (gpios_property): /soc/i2c@835000/focaltech@34:focaltech,reset-gpio: cell 0 is not a phandle reference
+<stdout>: Warning (gpios_property): /soc/i2c@835000/focaltech@34:focaltech,irq-gpio: cell 0 is not a phandle reference
+<stdout>: Warning (gpios_property): /soc/i2c@835000/focaltech@38:focaltech,reset-gpio: cell 0 is not a phandle reference
+<stdout>: Warning (gpios_property): /soc/i2c@835000/focaltech@38:focaltech,irq-gpio: cell 0 is not a phandle reference
+<stdout>: Warning (gpios_property): /soc/rgmii_io_pads_regulator:gpio: cell 0 is not a phandle reference
+<stdout>: Warning (gpios_property): /soc/sdhci@8804000:cd-gpios: cell 0 is not a phandle reference
+<stdout>: Warning (gpios_property): /soc/emac_phy_regulator:gpio: cell 0 is not a phandle reference
+<stdout>: Warning (gpios_property): /soc/vddpx2-gpio-regulator:gpios: cell 0 is not a phandle reference
+<stdout>: Warning (gpios_property): /soc/vddpx2-gpio-regulator:enable-gpio: cell 0 is not a phandle reference
+<stdout>: Warning (gpios_property): /soc/ess-instance/ess-switch@0:qcom,link-intr-gpio: cell 0 is not a phandle reference
+<stdout>: Warning (gpios_property): /soc/ess-instance/ess-switch@0: Missing property '#gpio-cells' in node /soc/pinctrl@f100000/pcie_ep/pcie_ep_perst_default or bad phandle (referred from qcom,link-intr-gpio[0])
+<stdout>: Warning (interrupt_provider): /soc/wcd9xxx-irq: Missing #address-cells in interrupt provider
+<stdout>: Warning (interrupt_provider): /soc/pinctrl@f100000: Missing #address-cells in interrupt provider
+<stdout>: Warning (interrupt_provider): /soc/interrupt-controller@17800000: Missing #address-cells in interrupt provider
+<stdout>: Warning (interrupt_provider): /soc/interrupt-controller@b210000: Missing #address-cells in interrupt provider
+<stdout>: Warning (interrupt_provider): /soc/qcom,smp2p-modem@1799000c/slave-kernel: Missing #address-cells in interrupt provider
+<stdout>: Warning (interrupt_provider): /soc/qcom,smp2p-modem@1799000c/qcom,smp2p-ipa-1-in: Missing #address-cells in interrupt provider
+<stdout>: Warning (graph_port): /soc/funnel@6804000/ports/port@1: graph node unit address error, expected "0"
+<stdout>: Warning (graph_port): /soc/funnel@6804000/ports/port@2: graph node unit address error, expected "1"
+<stdout>: Warning (graph_port): /soc/funnel@680c000/ports/port@1: graph node unit address error, expected "0"
+<stdout>: Warning (graph_port): /soc/tpda@6b01000/ports/port@1: graph node unit address error, expected "0"
+<stdout>: Warning (graph_port): /soc/tpda@6b01000/ports/port@2: graph node unit address error, expected "1"
+<stdout>: Warning (graph_port): /soc/funnel@6042000/ports/port@1: graph node unit address error, expected "0"
+<stdout>: Warning (graph_port): /soc/replicator@6046000/ports/port@2: graph node unit address error, expected "0"
+<stdout>: Warning (graph_port): /soc/tmc@6b09000/ports/port@1: graph node unit address error, expected "0"
+<stdout>: Warning (graph_port): /soc/funnel@6b08000/ports/port@1: graph node unit address error, expected "6"
+<stdout>: Warning (graph_port): /soc/funnel@6b08000/ports/port@2: graph node unit address error, expected "7"
+<stdout>: Warning (graph_port): /soc/funnel@6005000/ports/port@1: graph node unit address error, expected "0"
+<stdout>: Warning (graph_port): /soc/funnel@6045000/ports/port@1: graph node unit address error, expected "0"
+<stdout>: Warning (graph_port): /soc/funnel@6045000/ports/port@2: graph node unit address error, expected "1"
+<stdout>: Warning (graph_port): /soc/funnel@6041000/ports/port@1: graph node unit address error, expected "6"
+<stdout>: Warning (graph_port): /soc/funnel@6041000/ports/port@2: graph node unit address error, expected "7"
+<stdout>: Warning (graph_port): /soc/tpda@6004000/ports/port@1: graph node unit address error, expected "0"
+<stdout>: Warning (graph_port): /soc/tpda@6004000/ports/port@4: graph node unit address error, expected "e"
+<stdout>: Warning (graph_port): /soc/tpda@6004000/ports/port@3: graph node unit address error, expected "d"
+<stdout>: Warning (graph_port): /soc/tpda@6004000/ports/port@2: graph node unit address error, expected "c"
+<stdout>: Warning (graph_port): /soc/tpda@6803000/ports/port@1: graph node unit address error, expected "0"
+<stdout>: Warning (graph_port): /soc/funnel@69e2000/ports/port@1: graph node unit address error, expected "0"
+<stdout>: Warning (graph_port): /soc/replicator@6b0a000/ports/port@2: graph node unit address error, expected "0"
+<stdout>: Warning (graph_endpoint): /soc/tpdm@6870000/port/endpoint: graph connection to node '/soc/tpda@6004000/ports/port@3/endpoint' is not bidirectional
+<stdout>: Warning (graph_endpoint): /soc/replicator@6b0a000/ports/port@1/endpoint: graph connection to node '/soc/dummy_sink/port/endpoint' is not bidirectional
