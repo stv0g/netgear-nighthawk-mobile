@@ -1,4 +1,4 @@
-/ # cat /proc/mtd
+root@sdxprairie:/# cat /proc/mtd
 dev:    size   erasesize  name
 mtd0: 00280000 00040000 "sbl"
 mtd1: 00280000 00040000 "mibib"
@@ -31,4 +31,3 @@ mtd27: 03940000 00040000 "hdata"
 mtd28: 008c0000 00040000 "cust"
 mtd29: 01040000 00040000 "ntgrpersist"
 mtd30: 16580000 00040000 "ntgfota"
-

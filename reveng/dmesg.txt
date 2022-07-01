@@ -1,4 +1,4 @@
-#/ dmesg
+root@sdxprairie:/# dmesg
 [    0.761174] usbcore: registered new interface driver ums-isd200
 [    0.761208] usbcore: registered new interface driver ums-jumpshot
 [    0.761242] usbcore: registered new interface driver ums-karma

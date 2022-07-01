@@ -1,4 +1,4 @@
-/ # mount
+root@sdxprairie:/# mount
 ubi0:rootfs on / type ubifs (rw,relatime,bulk_read,ubi=0,vol=0)
 devtmpfs on /dev type devtmpfs (rw,relatime,size=379020k,nr_inodes=94755,mode=755)
 sysfs on /sys type sysfs (rw,nosuid,nodev,noexec,relatime)
@@ -43,4 +43,3 @@ ubi0:systemrw on /etc/misc/wifi/hostapd-wlan2.conf type ubifs (rw,relatime,bulk_
 ubi0:systemrw on /etc/misc/wifi/hostapd.conf type ubifs (rw,relatime,bulk_read,ubi=0,vol=3)
 ubi0:systemrw on /etc/misc/wifi/sta_mode_hostapd.conf type ubifs (rw,relatime,bulk_read,ubi=0,vol=3)
 ubi0:systemrw on /etc/misc/wifi/wpa_supplicant.conf type ubifs (rw,relatime,bulk_read,ubi=0,vol=3)
-

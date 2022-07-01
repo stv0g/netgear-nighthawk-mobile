@@ -1,4 +1,4 @@
-/ # ps aux
+root@sdxprairie:/# ps aux
 PID   USER     TIME  COMMAND
     1 root      0:03 {systemd} /sbin/init
     2 root      0:00 [kthreadd]
@@ -324,4 +324,3 @@ PID   USER     TIME  COMMAND
  2858 root      0:00 /usr/sbin/miniupnpd -f /etc/data/miniupnpd/miniupnpd.conf
  3365 root      0:00 /bin/sh
  4919 root      0:00 ps aux
-

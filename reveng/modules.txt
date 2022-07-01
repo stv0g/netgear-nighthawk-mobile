@@ -1,4 +1,4 @@
-/ # lsmod
+root@sdxprairie:/# lsmod
 lsmod
 Module                  Size  Used by
 wlan                 7802880  0
@@ -11,4 +11,3 @@ br_netfilter           24576  0
 xt_physdev             16384  8
 r8125                 163840  0
 emac_dwc_eqos         274432  0
-

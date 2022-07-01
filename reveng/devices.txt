@@ -1,4 +1,4 @@
-/ # ls -l /dev/
+root@sdxprairie:/# ls -l /dev/
 total 0
 crw-r-----    1 radio    radio     509,   1 Jun 23 10:51 android_mbim
 crw-rw----    1 radio    radio     239,   0 Jun 23 10:51 at_mdm0
@@ -305,4 +305,3 @@ crw-------    1 root     root      496,   0 Jun 23 10:51 wlan
 crw-------    1 radio    radio     500,   0 Jun 23 10:51 wwan_ioctl
 crw-rw-rw-    1 root     root        1,   5 Jun 23 10:51 zero
 brw-rw----    1 root     disk      254,   0 Jun 23 10:51 zram0
-
